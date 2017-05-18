@@ -1,0 +1,14 @@
+title: Site
+pages: default
+fields:
+  title:
+    label: Title
+    type:  text
+  email:
+    label: Email
+    type: email
+    width: 1/2
+  twitter:
+    label: Twitter
+    type: text
+    width: 1/2

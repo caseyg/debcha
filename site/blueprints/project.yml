@@ -1,0 +1,29 @@
+title: Project
+pages: false
+files:
+  sortable: true
+fields:
+  title:
+    label: Title
+    type:  text
+  subtitle:
+    label: Subtitle
+    type: text
+  affiliation:
+    label: Affiliation
+    tyoe: text
+    width: 1/3
+  dates:
+    label: Dates
+    type:  text
+    width: 1/3
+  ongoing:
+    label: Ongoing?
+    type: toggle
+    width: 1/3
+  tags:
+    label: Tags
+    type:  tags
+  text:
+    label: Text
+    type:  textarea

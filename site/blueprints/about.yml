@@ -1,0 +1,19 @@
+title: About
+pages: false
+fields:
+  title:
+    label: Title
+    type:  text
+  about:
+    label: About
+    type:  textarea
+  contact:
+    label: Contact
+    type:  textarea
+  bio:
+    label: Bio
+    type:  textarea
+
+  portrait:
+    label: Portrait
+    type: image

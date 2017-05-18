@@ -1,0 +1,101 @@
+Title: Home
+
+----
+
+Welcome: Deb Chachra is a Professor of Engineering at Olin College of Engineering in Needham, Massachusetts.
+
+----
+
+Coordinates: 
+
+## Coordinates
+
+Currently doing a developmental leave at the University College London, collaborating on engineering education with faculty there, as well as working on her own projects. When she’s not on campus, you can find her in various coffeeshops in the East End, at the British Library, in transit, or on Twitter.  [something about detailed contact information and a link to the page?]
+
+----
+
+Intersections: 
+
+- 
+  title: Materials engineering, by bees
+  sentence: >
+    Investigating plastic nest cell linings
+    made by bees.
+  paragraph: >
+    Everyone knows about honeybees and
+    bumblebees, but my favourite species is
+    Colletes inaequalis, found across the
+    northeast United States. In the
+    springtime, they dig underground nests,
+    which they line with a clear
+    cellophane-like polyester. Our lab
+    showed that these plastic nest cells are
+    also reinforced with silk, making them a
+    close cousin to fiberglass. Read more.
+  image: c-inaequalis.png
+  imagecredit: Olin College/Gill Pratt
+  link: ""
+- 
+  title: Comic books meet gender schemas
+  sentence: >
+    Gender schemas in the comic book Bitch
+    Planet.
+  paragraph: 'I wrote an essay about gender schemas and the accumulation of advantage for the January 2016 issue of Kelly Sue DeConnick and Valentine De Landro’s brilliant feminist dystopian comic book Bitch Planet. At the moment, the full essay is only available in that issue, but Virginia Valian’s Why So Slow: The Advancement of Women, the book that inspired and shaped the essay, is in libraries everywhere.'
+  image: ""
+  imagecredit: ""
+  link: ""
+- 
+  title: Rethinking making
+  sentence: >
+    Our society overvalues making and
+    underappreciates other labour.
+  paragraph: >
+    ‘Making’ has become something of a
+    buzzword in education. I wrote an essay
+    for The Atlantic about its primacy in
+    technology culture, and how this stems
+    from our collective societal bias
+    towards things that can be boxed and
+    sold. I made a case to recognise and
+    value caregiving and other work, mostly
+    performed by women, that isn’t
+    considered ‘making’.
+  image: ""
+  imagecredit: David Catchpole/Flickr
+  link: ""
+- 
+  title: >
+    The military roots of tech culture in
+    the Bay Area
+  sentence: >
+    How military infrastructure shaped Bay
+    Area tech culture.
+  paragraph: 'In the spring of 2016, I collaborated with Georgina Voss, Sherri Wasserman and Ingrid Burrington on Situated Systems, the inaugural project of the Experimental Research Lab at Autodesk’s Pier 9 creative fabrication facility in San Francisco. The project focused on the ongoing influence of military infrastructure on technology culture in the Bay Area and beyond, with a focus on carrying out and communicating our research by creating artifacts in addition to more traditional documentation. Read more. [link to Project page]'
+  image: >
+    screen-shot-2017-05-18-at-12.17.17-pm.png
+  imagecredit: ""
+  link: ""
+- 
+  title: Codesigning learning experiences
+  sentence: >
+    Creating new learning experiences for
+    engineering students.
+  paragraph: >
+    Olin College of Engineering, where I’m
+    a faculty member, is a small college
+    committed to innovation in engineering
+    education. We’re rethinking how we
+    teach engineering and designing learning
+    experiences that are student-centered,
+    that reflect our understanding of and
+    research in educational psychology, and
+    that prepare technologists who can make
+    an impact in the 21st century. As part
+    of this, my colleagues and I work
+    closely with faculty around the world to
+    help them create experiences for their
+    own students. Learn more about the Olin
+    College Collaboratory.
+  image: ""
+  imagecredit: Olin College
+  link: ""

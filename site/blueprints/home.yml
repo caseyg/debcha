@@ -1,0 +1,34 @@
+title: Home
+pages: false
+fields:
+  title:
+    label: Title
+    type:  text
+  welcome:
+    label: Welcome
+    type:  textarea
+  coordinates:
+    label: Coordinates
+    type:  textarea
+  intersections:
+    label: Intersections
+    type: structure
+    fields:
+      title:
+        label: Title
+        type: text
+      sentence:
+        label: Sentence
+        type: text
+      paragraph:
+        label: Paragraph
+        type: textarea
+      image:
+        label: Image
+        type: image
+      imagecredit:
+        label: Image Credit
+        type: text
+      link:
+        label: Link
+        type: url

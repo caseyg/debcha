@@ -19,15 +19,14 @@
         <?php foreach ($page->intersections()->toStructure() as $i): ?>
           <li>
             <?php if ($i->link()->isNotBlank()): ?>
-              <a href="<?php echo $i->link() ?>"><?php echo $i->title() ?></a>
-            <?php else: ?>
-              <?php echo $i->title() ?>
-            <?php endif; ?>
-            <?php if ($i->affiliation()->isNotBlank()): ?>
-              | <?php echo $i->affiliation() ?>
-            <?php endif; ?>
-            <?php if ($i->dates()->isNotBlank()): ?>
-              | <?php echo $i->dates() ?>
+              <a href="<?php echo $i->link() ?>">
+                <?php if ($i->image()->isNotEmpty()): ?>
+                  <figure>
+                    <img src="<?php echo $i->image()->toFile()->url() ?>" class="img-fluid">
+                  </figure>
+                <?php endif; ?>
+                <?php echo $i->title() ?>
+              </a>
             <?php endif; ?>
           </li>
         <?php endforeach; ?>

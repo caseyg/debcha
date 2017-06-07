@@ -10,6 +10,7 @@
               <h2>
                 <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
               </h2>
+              <?php echo $p->dates() ?>
               <?php if ($p->image()->isNotEmpty()): ?>
                 <figure>
                   <img src="<?php echo $p->image()->url() ?>" class="img-fluid">

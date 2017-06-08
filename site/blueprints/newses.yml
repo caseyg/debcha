@@ -1,5 +1,7 @@
 title: News Index
 pages: news
+  num: date
+  field: dates
 files: false
 fields:
   title:

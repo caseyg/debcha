@@ -1,0 +1,21 @@
+Title: Reinvention
+
+----
+
+Subtitle: The future of engineering education
+
+----
+
+Dates: 
+
+----
+
+Ongoing: true
+
+----
+
+Tags: education,technology,writing
+
+----
+
+Builder: 

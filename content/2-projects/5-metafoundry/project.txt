@@ -1,0 +1,17 @@
+Title: Metafoundry
+
+----
+
+Subtitle: A Newsletter
+
+----
+
+Ongoing: false
+
+----
+
+Tags: technology,design,culture,writing
+
+----
+
+Builder: 

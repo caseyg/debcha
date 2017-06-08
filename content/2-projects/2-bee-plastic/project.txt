@@ -1,4 +1,4 @@
-Title: Bee plastic and other biomaterials
+Title: Bee Plastic and Other Biomaterials
 
 ----
 
@@ -27,3 +27,7 @@ Text:
 My technical background is in materials science, with a focus on biological materials. 
 
 My most recent research focuses on the nest cells made by Colletes inaequalis, a solitary bee that is native to the Northeast United States. In the spring, the bees dig thimble-sized underground nest cells, line each nest cell with a cellophane-like plastic, provision them with pollen and nectar, and then deposit a single egg in each cell before sealing it with more plastic. As part of our research, we showed that there is also silk in the nest cell lining; it’s therefore a composite, closely akin to fiberglass. We are currently extending our work by investigating representative species in the other four subfamilies in the Colletidae family. [find MRS abstract link]
+
+----
+
+Builder: 

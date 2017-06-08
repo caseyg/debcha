@@ -1,0 +1,30 @@
+title: Theme
+pages: false
+files:
+  sortable: true
+fields:
+  title:
+    label: Title
+    type:  text
+
+  builder:
+    label: Sections
+    type: builder
+    fieldsets:
+      bodytext:
+        label: Body Text
+        snippet: sections/bodytext
+        fields:
+          text:
+            label: Text
+            type: textarea
+      quote:
+        label: Quote
+        snippet: sections/quote
+        fields:
+          text:
+            label: Quote Text
+            type: textarea
+          citation:
+            label: Citation
+            type: text

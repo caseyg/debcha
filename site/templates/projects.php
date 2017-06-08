@@ -3,21 +3,24 @@
 <div class="container my-3">
   <div class="row my-3">
     <div class="col-6">
-      <h2>Projects</h2>
+      <h2><?php echo $page->title() ?></h2>
       <ul class="list-unstyled">
         <?php foreach ($page->children() as $p): ?>
           <li class="mb-4">
-              <h2>
-                <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
-              </h2>
+              <a href="<?php echo $p->url() ?>">
+                <h3><?php echo $p->title() ?></h3>
+                <?php if ($p->subtitle()->isNotEmpty()): ?>
+                  <h4><?php echo $p->subtitle() ?></h4>
+                <?php endif; ?>
+              </a>
+
               <?php if ($p->tags()->isNotEmpty()): ?>
-              <?php foreach ($p->tags()->split($separator = ',') as $t): ?>
-                <span class="ml-3 <?php echo strtolower($t) ?>" title="<?php echo $t ?>">#<?php echo $t ?></span>
-              <?php endforeach; ?>
-            <?php endif; ?>
-            <?php if ($p->subtitle()->isNotEmpty()): ?>              
-              <?php echo $p->subtitle() ?>
-            <?php endif; ?>
+                <?php foreach ($p->tags()->split($separator = ',') as $t): ?>
+                  <a href="<?php echo url($page->url() . '/' . url::paramsToString(['tag' => $t])) ?>">
+                    #<?php echo html($t) ?>
+                  </a>
+                <?php endforeach; ?>
+              <?php endif; ?>
           </li>
         <?php endforeach; ?>
       </ul>

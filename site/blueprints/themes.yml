@@ -1,0 +1,7 @@
+title: Themes
+pages: theme
+files: false
+fields:
+  title:
+    label: Title
+    type:  text

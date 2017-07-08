@@ -19,3 +19,21 @@ Tags: education,technology,writing
 ----
 
 Builder: 
+
+- 
+  text: Test
+  _fieldset: bodytext
+- 
+  text: '[A] generation out from my own undergraduate engineering degree, I’ve spent a surprising amount of time unlearning what I learned in college, and I work with engineering educators to help them do likewise.'
+  title: >
+    Five Things I Unlearned After
+    Engineering School
+  link: >
+    http://www.asee-prism.org/reinvention-dec-3/
+  date: December 2016
+  _fieldset: excerpt
+  date_text: December 2016
+
+----
+
+Text: 

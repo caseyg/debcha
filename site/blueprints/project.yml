@@ -16,7 +16,6 @@ fields:
   tags:
     label: Tags
     type:  tags
-
   builder:
     label: Sections
     type: builder
@@ -37,4 +36,22 @@ fields:
             type: textarea
           citation:
             label: Citation
+            type: text
+      excerpt:
+        label: Excerpt
+        snippet: sections/excerpt
+        fields:
+          text:
+            label: Quote Text
+            type: textarea
+          title:
+            label: Title
+            type: text
+            width: 1/2
+          link:
+            label: Link
+            type: url
+            width: 1/2
+          date_text:
+            label: Date
             type: text

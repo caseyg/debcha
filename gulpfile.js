@@ -75,8 +75,8 @@ gulp.task('browsersync', ['php'], function() {
 // * Use this to work on your project *
 // -----------------------------------
 gulp.task('serve', ['browsersync'], function() {
-    gulp.watch(['./assets/sass/index.scss'], [reload]);
-    gulp.watch(['./site/**/*.php'], [reload]);
+    gulp.watch(['assets/sass/index.scss'], [reload]);
+    gulp.watch(['site/**/*.php'], [reload]);
 
 });
 

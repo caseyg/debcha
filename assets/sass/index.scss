@@ -3,6 +3,20 @@
 }
 
 .excerpt {
-  border: 1px solid gray;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
   padding: 15px;
+  margin-bottom: 15px;
+  display:inline-block;
+  blockquote {
+    border-left: 4px solid lightgray;
+    padding-left: 15px;
+    color: gray;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 100;
+  }
+}
+
+body {
+  font-family: default!important;
 }

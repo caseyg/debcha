@@ -10,7 +10,7 @@ Coordinates:
 
 ## Coordinates
 
-Currently doing a developmental leave at the University College London, collaborating on engineering education with faculty there, as well as working on her own projects. When she’s not on campus, you can find her in various coffeeshops in the East End, at the British Library, in transit, or on Twitter.  [something about detailed contact information and a link to the page?]
+**Currently** doing a _developmental_ leave at the **University College London**, collaborating on engineering education with faculty there, as well as working on her own projects. When she’s not on campus, you can find her in various coffeeshops in the East End, at the British Library, in transit, or on Twitter.  [something about detailed contact information and a link to the page?]
 
 ----
 
@@ -45,7 +45,7 @@ Intersections:
   imagecredit: ""
   link: ""
 - 
-  title: Rethinking making
+  title: Rethinking making TEST
   sentence: >
     Our society overvalues making and
     underappreciates other labour.
@@ -60,20 +60,8 @@ Intersections:
     value caregiving and other work, mostly
     performed by women, that isn’t
     considered ‘making’.
-  image: ""
+  image: c-inaequalis.png
   imagecredit: David Catchpole/Flickr
-  link: ""
-- 
-  title: >
-    The military roots of tech culture in
-    the Bay Area
-  sentence: >
-    How military infrastructure shaped Bay
-    Area tech culture.
-  paragraph: 'In the spring of 2016, I collaborated with Georgina Voss, Sherri Wasserman and Ingrid Burrington on Situated Systems, the inaugural project of the Experimental Research Lab at Autodesk’s Pier 9 creative fabrication facility in San Francisco. The project focused on the ongoing influence of military infrastructure on technology culture in the Bay Area and beyond, with a focus on carrying out and communicating our research by creating artifacts in addition to more traditional documentation. Read more. [link to Project page]'
-  image: >
-    screen-shot-2017-05-18-at-12.17.17-pm.png
-  imagecredit: ""
   link: ""
 - 
   title: Codesigning learning experiences
@@ -98,4 +86,16 @@ Intersections:
     College Collaboratory.
   image: ""
   imagecredit: Olin College
+  link: ""
+- 
+  title: >
+    The military roots of tech culture in
+    the Bay Area
+  sentence: >
+    How military infrastructure shaped Bay
+    Area tech culture.
+  paragraph: 'In the spring of 2016, I collaborated with Georgina Voss, Sherri Wasserman and Ingrid Burrington on Situated Systems, the inaugural project of the Experimental Research Lab at Autodesk’s Pier 9 creative fabrication facility in San Francisco. The project focused on the ongoing influence of military infrastructure on technology culture in the Bay Area and beyond, with a focus on carrying out and communicating our research by creating artifacts in addition to more traditional documentation. Read more. [link to Project page]'
+  image: >
+    screen-shot-2017-05-18-at-12.17.17-pm.png
+  imagecredit: ""
   link: ""

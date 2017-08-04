@@ -1,8 +1,8 @@
-Title: Zed Equals Zee
+Title: zed equals zee
 
 ----
 
-Subtitle: 
+Subtitle: Music, culture, and technology
 
 ----
 
@@ -15,3 +15,17 @@ Tags: writing,music,culture,technology
 ----
 
 Builder: 
+
+- 
+  text: |
+    [zed equals zee](https://zedequalszee.com/) started as a straghtforward music blog, but I very quickly realized that my interest was at the *intersection* of music, culture, and technology, and while there's a lot of writing at the intersection of each pair, there's relatively little where all three meet. The blog was active for about five years (2007 to 2012), and also has a [companion Tumblr](http://zedequalszee.tumblr.com/) of quick posts.
+    
+    Some of my favorite essays:
+    
+    [How to disappear (almost) completely](https://zedequalszee.com/2010/10/25/how-to-disappear-almost-completely/): On how artists are hiding from Google searches, and why they might want to do so.
+    [So, why *is* indie music so white?](https://zedequalszee.com/2011/01/20/so-why-is-indie-music-so-white/): In which I draw parallels between the indie music scene and being a woman in engineering.
+    [On a world of distributed Medicis](https://zedequalszee.com/2012/11/26/micropatronage/): The role of crowdfunding in supporting a diversity of music.
+    [Pay-for-downloads and self-fulfilling prophecies](https://zedequalszee.com/2010/06/15/pay-for-downloads-and-self-fulfilling-prophecies/): Experimenting with the effect of social pressures on making music popular.
+    
+    [**zed equals zee**](https://zedequalszee.com/)
+  _fieldset: bodytext

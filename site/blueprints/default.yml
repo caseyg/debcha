@@ -1,6 +1,13 @@
 title: Page
 pages: true
 files: true
+  fields:
+    description:
+      label: Description
+      type: text
+    credit:
+      label: Credit
+      type: textarea
 fields:
   title:
     label: Title

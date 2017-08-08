@@ -1,5 +1,13 @@
 title: Home
 pages: false
+files:
+  fields:
+    description:
+      label: Description
+      type: text
+    credit:
+      label: Credit
+      type: textarea
 fields:
   title:
     label: Title

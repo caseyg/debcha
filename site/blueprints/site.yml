@@ -1,5 +1,6 @@
 title: Site
 pages: default
+files: false
 fields:
   title:
     label: Title

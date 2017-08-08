@@ -1,4 +1,9 @@
 title: Projects
+options:
+  status: false
+  delete: false
+  url: false
+  template: false
 pages: project
 files: false
 fields:

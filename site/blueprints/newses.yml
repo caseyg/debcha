@@ -1,4 +1,9 @@
 title: News Index
+options:
+  status: false
+  delete: false
+  url: false
+  template: false
 pages:
   template: news
   num: date

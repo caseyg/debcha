@@ -1,4 +1,9 @@
 title: Error
+options:
+  status: false
+  delete: false
+  url: false
+  template: false
 pages: false
 files: false
 fields:

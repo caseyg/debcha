@@ -1,5 +1,6 @@
 title: News Index
-pages: news
+pages:
+  template: news
   num: date
   field: dates
 files: false

@@ -17,7 +17,7 @@
 
       <?php if ($page->tags()->isNotEmpty()): ?>
         <?php foreach ($page->tags()->split($separator = ',') as $t): ?>
-          <a href="<?php echo url('../' . $page->url() . '/' . url::paramsToString(['tag' => $t])) ?>">
+          <a href="<?php echo url($page->parent()->uri() . '/' . url::paramsToString(['tag' => $t])) ?>">
             #<?php echo html($t) ?>
           </a>
         <?php endforeach; ?>

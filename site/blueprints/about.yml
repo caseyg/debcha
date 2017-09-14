@@ -1,4 +1,9 @@
 title: About
+options:
+  status: false
+  delete: false
+  url: false
+  template: false
 pages: false
 fields:
   title:

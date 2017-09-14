@@ -11,13 +11,6 @@
       <?php echo $page->about()->kt() ?>
     </div>
   </div>
-  <hr>
-  <div class="row">
-    <div class="col-12">
-      <h2>Intersections</h2>
-    </div>
-  </div>
-
 </div>
 </div>
 <?php snippet('footer') ?>

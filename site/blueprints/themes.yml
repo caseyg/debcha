@@ -1,4 +1,9 @@
 title: Themes
+options:
+  status: false
+  delete: false
+  url: false
+  template: false
 pages: theme
 files: false
 fields:

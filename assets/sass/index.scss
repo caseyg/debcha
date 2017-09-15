@@ -18,5 +18,102 @@
 }
 
 body {
-  font-family: default!important;
+  font-family: "sofia-pro-condensed", sans-serif;
+  font-weight: 100;
+}
+
+nav {
+
+}
+
+#topnav {
+  border: 3px solid #000;
+
+  &.navbar {
+    padding: 0;
+    background-color: #fff!important;
+  }
+
+  .navbar-brand,
+  .nav-item,
+  .navbar-toggler {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+
+  .nav-item {
+    text-transform: uppercase;
+    border-left: 3px solid #000;
+    letter-spacing: 1px;
+  }
+
+  .navbar-toggler {
+    border: 0;
+    border-radius: 0;
+    border-left: 3px solid #000;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+  }
+
+  a:link,
+  a:visited {
+    color: #000;
+  }
+
+}
+
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "sofia-pro-condensed";
+}
+
+#projects {
+  background: url(/assets/static.png);
+}
+
+#themes {
+  height: 100vh;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b1b0ae+0,878787+100 */
+  background: #b1b0ae; /* Old browsers */
+  background: -moz-linear-gradient(top, #b1b0ae 0%, #878787 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #b1b0ae 0%,#878787 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #b1b0ae 0%,#878787 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b0ae', endColorstr='#878787',GradientType=0 ); /* IE6-9 */
+
+  ol,
+  ol h3 a {
+    font-family: "larabiefont" !important;
+    color: #fff;
+  }
+
+  ol {
+    border-bottom: 3px solid #fff;
+    list-style-position: inside;
+    padding: 0;
+  }
+
+  ol li {
+    border: 3px solid #fff;
+    border-bottom:0;
+    margin: 0!important;
+    padding: 1rem;
+  }
+}
+
+#news {
+  h2 {
+    font-family: "vinyl";
+    a {
+      color: #000;
+    }
+  }
 }

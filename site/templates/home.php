@@ -5,9 +5,9 @@
     <div class="col-sm-6 lead">
       <?php echo $page->welcome()->kt() ?>
     </div>
-    <div class="col-sm-6">
+<!--    <div class="col-sm-6">
       <?php echo $page->coordinates()->kt() ?>
-    </div>
+    </div>-->
   </div>
 
   <hr>

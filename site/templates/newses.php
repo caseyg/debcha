@@ -3,7 +3,7 @@
 <div class="container my-3">
   <div class="row my-3">
     <div class="col-sm-8">
-        <h2>News</h2>
+        <h1>News</h1>
       <?php if ($tag = param('tag')): ?>
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
           <a class="close" href="/news">
@@ -12,9 +12,8 @@
           Viewing <?php echo html($news->count()) ?> post(s) tagged "<?php echo html($tag) ?>"
         </div>
       <?php endif; ?>
-      <ul class="list-unstyled">
         <?php foreach ($news as $p): ?>
-          <li class="mb-4">
+          <div class="my-4">
               <h2>
                 <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
               </h2>
@@ -43,9 +42,9 @@
               <?php if ($p->subtitle()->isNotEmpty()): ?>
                 <?php echo $p->subtitle() ?>
               <?php endif; ?>
-          </li>
+          </div>
+          <hr class="my-4">
         <?php endforeach; ?>
-      </ul>
     </div>
     <div class="col-sm-4">
       <h3>Tags</h3>

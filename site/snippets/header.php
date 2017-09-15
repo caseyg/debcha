@@ -11,21 +11,24 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <?php echo css('assets/css/index.css') ?>
   </head>
-<body>
+<body id="<?php echo $page->slug() ?>">
 
 <header>
-    <div class="container py-3">
-      <div class="row">
-        <div class="col-sm-4">
-          <h1><a href="/"><?php echo $site->title() ?></a></h1>
-        </div>
-        <ul class="col-sm-8 nav justify-content-end">
-            <?php foreach($pages->visible() as $p): ?>
-              <li class="nav-item">
-                <a class="nav-link <?php e($p->isOpen(), 'active') ?>" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-              </li>
-            <?php endforeach ?>
-        </nav>
+    <nav id="topnav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/"><?php echo $site->title() ?></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <?php foreach($pages->visible() as $p): ?>
+
+          <li class="nav-item <?php e($p->isOpen(), 'active') ?>">
+            <a class="nav-link" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?> <?php e($p->isOpen(), '<span class="sr-only">(current)</span>') ?></a>
+          </li>
+          <?php endforeach ?>
+        </ul>
       </div>
-    </div>
+    </nav>
 </header>

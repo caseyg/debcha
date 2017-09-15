@@ -3,7 +3,7 @@
 <div class="container my-3">
   <div class="row my-3">
     <div class="col">
-      <h2 class="mb-4"><?php echo $page->title() ?></h2>
+      <h1 class="mb-4"><?php echo $page->title() ?></h1>
 
       <?php if ($tag = param('tag')): ?>
         <div class="alert alert-warning alert-dismissible fade show" role="alert">

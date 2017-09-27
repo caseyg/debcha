@@ -19,7 +19,7 @@
           <div class="card mb-3">
             <div class="card-block">
 
-                <h4 class="card-title"><a class="text-muted" href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></h4>
+                <h4 class="card-title"><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></h4>
                 <?php if ($p->subtitle()->isNotEmpty()): ?>
                   <p class="card-text"><?php echo $p->subtitle() ?></p>
                 <?php endif; ?>

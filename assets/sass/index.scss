@@ -77,17 +77,33 @@ h6 {
 }
 
 #projects {
-  background: url(/assets/static.png);
+  background: lightgray;
+  .card {
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 0;
+  }
+  .card-title,
+  .card-text {
+    font-family: vinyl;
+    a:link,
+    a:visited {
+      color: #000;
+    }
+    small {
+      font-family: "sofia-pro-condensed"
+    }
+  }
 }
 
 #themes {
   height: 100vh;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b1b0ae+0,878787+100 */
   background: #b1b0ae; /* Old browsers */
-  background: -moz-linear-gradient(top, #b1b0ae 0%, #878787 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #b1b0ae 0%,#878787 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #b1b0ae 0%,#878787 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b0ae', endColorstr='#878787',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(left, #b1b0ae 0%, #878787 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b1b0ae 0%,#878787 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b1b0ae 0%,#878787 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b0ae', endColorstr='#878787',GradientType=1 ); /* IE6-9 */
 
   ol,
   ol h3 a {

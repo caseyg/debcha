@@ -45,9 +45,11 @@
         <?php if ($news->count() > 0): ?>
           <hr>
           <h3 class="mb-4">Related News</h3>
-          <?php foreach ($news as $p): ?>
-            <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>, <?php if ($p->dates()->isNotEmpty()): ?><?php echo $p->dates() ?><?php endif; ?>
-          <?php endforeach; ?>
+          <ul>
+            <?php foreach ($news as $p): ?>
+              <li><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>, <?php if ($p->dates()->isNotEmpty()): ?><?php echo $p->dates() ?><?php endif; ?></li>
+            <?php endforeach; ?>
+          </ul>
         <?php endif; ?>
       <?php endif; ?>
     </div>

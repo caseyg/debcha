@@ -1,14 +1,14 @@
-Title: Gender and inclusivity in engineering and education
+Title: Gender and inclusivity
 
 ----
 
-Text:
+Text: 
 
 ----
 
-Builder:
+Builder: 
 
--
+- 
   text: >
     Issues around gender and STEM (science,
     technology, engineering and mathematics)

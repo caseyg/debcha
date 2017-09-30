@@ -1,0 +1,15 @@
+title: Coordinate
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 1/2
+  dates:
+    label: Date
+    type:  date
+    width: 1/2
+  text:
+    label: Text
+    type:  textarea

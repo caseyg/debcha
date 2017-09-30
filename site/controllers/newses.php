@@ -11,7 +11,7 @@ return function($site, $pages, $page) {
   }
 
   // fetch all tags
-  $tags = $pages->find('news')->children()->visible()->pluck('tags', ',', false);
+  $tags = $pages->find('news')->children()->visible()->pluck('tags', ',', true);
 
   // apply pagination
   $news   = $news->paginate(10);

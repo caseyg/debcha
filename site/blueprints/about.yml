@@ -22,3 +22,29 @@ fields:
   portrait:
     label: Portrait
     type: image
+
+  email:
+    label: Email
+    type: email
+    width: 1/2
+  twitter:
+    label: Twitter
+    type: text
+    width: 1/2
+
+  mailingaddress:
+    label: Mailing Address
+    type:  textarea
+
+  phone:
+    label: Phone
+    type: text
+    width: 1/2
+  fax:
+    label: Fax
+    type: text
+    width: 1/2
+
+  disclaimer:
+    label: Disclaimer
+    type: textarea

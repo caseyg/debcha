@@ -12,21 +12,6 @@ About: I’m a Professor of Engineering at Olin College of Engineering outside B
 
 Contact: 
 
-## Contact
-
-The best way to reach me is via e-mail: debbie.chachra@olin.edu  
-You can also find me on Twitter: @debcha
-
-My mailing address is:  
-Professor Debbie Chachra  
-Olin College of Engineering, MH 264  
-1000 Olin Way  
-Needham, MA  
-02492
-
-phone: +1 781 292 2546 [not very well-attended; e-mail is a better choice]  
-fax: +1 781 292 2546 [I don’t think I’ve gotten a fax in years, but they will get to me]
-
 ----
 
 Bio: 
@@ -51,8 +36,32 @@ Portrait: debchachra.jpg
 
 ----
 
-Email: 
+Email: debbie.chachra@olin.edu
 
 ----
 
-Twitter: 
+Twitter: debcha
+
+----
+
+Mailingaddress: 
+
+Professor Debbie Chachra  
+Olin College of Engineering, MH 264  
+1000 Olin Way  
+Needham, MA  02492
+
+----
+
+Phone: +1 781 292 2546
+
+----
+
+Fax: +1 781 292 2546
+
+----
+
+Disclaimer: 
+
+*not very well-attended; e-mail is a better choice  
+**I don’t think I’ve gotten a fax in years, but they will get to me

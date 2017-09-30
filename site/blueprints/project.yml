@@ -16,11 +16,19 @@ fields:
   subtitle:
     label: Subtitle
     type: text
-  ongoing:
-    label: Archived?
-    type: toggle
-    width: 1/3
+  themes:
+    label: Themes
+    type: multiselect
+    options: query
+    query:
+      page: themes
+      fetch: children
+      value: '{{title}}'
+      text: '{{title}}'
+      flip: true
+    width: 1/2
   tags:
     label: Tags
     type:  tags
+    width: 1/2
   builder: builder

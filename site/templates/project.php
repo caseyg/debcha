@@ -28,7 +28,9 @@
       <table class="themes">
         <?php foreach($pages->find('themes')->children()->visible() as $theme): ?>
           <tr>
-            <td>X</td>
+            <td><?php if(str::contains($page->themes(), $theme->title())): ?>
+              X
+            <?php endif; ?></td>
             <td><a href="<?php echo $theme->url() ?>"><?php echo $theme->title() ?></a></td>
           </tr>
         <?php endforeach; ?>

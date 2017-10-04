@@ -23,6 +23,8 @@ Builder:
     [**Situated Systems**](http://situated.systems)
   _fieldset: bodytext
 - 
+  _fieldset: divider
+- 
   slideshow: |
     - sitsysopenhouse_uk7a6070.jpg
     - sitsysopenhouse_uk7a6091.jpg

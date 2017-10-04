@@ -1,7 +1,10 @@
 <div class="carousel carousel-main" data-flickity='{"imagesLoaded": true, "pageDots": false}'>
   <?php foreach($data->slideshow()->yaml() as $image): ?>
     <?php if($image = $page->image($image)): ?>
-      <div class="carousel-cell"><img src="<?= $image->url(); ?>" width="<?= $image->width(); ?>" height="<?= $image->height(); ?>" alt=""></div>
+      <div class="carousel-cell">
+        <img src="<?= $image->url(); ?>" width="<?= $image->width(); ?>" height="<?= $image->height(); ?>" alt="">
+        <p><?= $image->description(); ?> <?php if ($image->credit()->isNotEmpty()): ?><small>(<?= $image->credit() ?>)</small><?php endif; ?></p>
+      </div>
     <?php endif ?>
   <?php endforeach; ?>
 </div>
@@ -37,6 +40,7 @@ body { font-family: sans-serif; }
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    margin-right: 50px;
 }
 
 .carousel-nav .carousel-cell {

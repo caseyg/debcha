@@ -43,3 +43,6 @@ fieldsets:
       slideshow:
         label: Slideshow
         type: images
+  divider:
+    label: Divider
+    snippet: sections/divider

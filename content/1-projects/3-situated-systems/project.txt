@@ -10,7 +10,7 @@ Ongoing: false
 
 ----
 
-Tags: research,infrastructure,design
+Tags: research,infrastructure,design,legibility
 
 ----
 
@@ -22,9 +22,10 @@ Builder:
   _fieldset: image
 - 
   text: |
-    The [Situated Systems](http://situated.systems) was undertaken as the inaugural fellowship of the Experimental Research Lab at Autodesk's [Pier 9 creative workshop](https://www.autodesk.com/pier-9)  in San Francisco, California, during the spring of 2016. Our multidisciplinary team explored how the long history of military infrastructure and projects in the Bay Area has shaped (and continues to shape) technology culture, and we communicated our findings primarily through physical objects that we fabricated. The project website includes background information, documentation, and online resources.
+    The [Situated Systems](http://situated.systems) was undertaken as the inaugural fellowship of the Experimental Research Lab at Autodesk's [Pier 9 creative workshop](https://www.autodesk.com/pier-9)  in San Francisco, California, during the spring of 2016. Our multidisciplinary team explored how the long history of military infrastructure and projects in the Bay Area has shaped (and continues to
+    shape) technology culture, and we communicated our findings primarily through physical objects that we fabricated. The project website includes background information, documentation, and online resources.
     
-    [**Situated Systems**](http://situated.systems)
+    (link: http://situated.systems text: Visit Situated Systems class:btn btn-lg btn-outline-primary)
   _fieldset: bodytext
 - 
   _fieldset: divider
@@ -37,4 +38,4 @@ Builder:
 
 ----
 
-Themes: 
+Themes: Technology and culture

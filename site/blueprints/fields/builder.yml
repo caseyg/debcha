@@ -36,6 +36,21 @@ fieldsets:
       date_text:
         label: Date
         type: text
+  image:
+    label: Image
+    snippet: sections/image
+    fields:
+      image:
+        type: image
+        label: Image
+      class:
+        type: select
+        label: Position
+        options:
+          image--left: Left Align
+          image--center: Center Align
+          image--right: Right Align
+          image--full: Full Width
   slideshow:
     label: Slideshow
     snippet: sections/slideshow

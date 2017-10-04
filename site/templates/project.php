@@ -14,7 +14,7 @@
 </div>
 <div class="container my-3">
   <div class="row my-3">
-    <div class="col-8">
+    <div class="col-12 col-md-8">
       <?php if ($page->text()->isNotEmpty()): ?>
         <?php echo $page->text()->kt() ?>
       <?php endif; ?>
@@ -23,7 +23,7 @@
         <?php snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
       <?php endforeach ?>
     </div>
-    <div class="col-4">
+    <div class="col-12 col-md-4">
       <h3 class="table-heading">Subjects</h3>
       <table class="themes">
         <?php foreach($pages->find('themes')->children()->visible() as $theme): ?>

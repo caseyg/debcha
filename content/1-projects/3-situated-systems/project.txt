@@ -22,6 +22,12 @@ Builder:
     
     [**Situated Systems**](http://situated.systems)
   _fieldset: bodytext
+- 
+  slideshow: |
+    - sitsysopenhouse_uk7a6070.jpg
+    - sitsysopenhouse_uk7a6091.jpg
+    - situated-systems_16-0608_06.jpg
+  _fieldset: slideshow
 
 ----
 

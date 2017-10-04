@@ -36,3 +36,10 @@ fieldsets:
       date_text:
         label: Date
         type: text
+  slideshow:
+    label: Slideshow
+    snippet: sections/slideshow
+    fields:
+      slideshow:
+        label: Slideshow
+        type: images

@@ -34,5 +34,17 @@
     </div>
   </div>
 
+  <section class="coordinates text-center">
+    <h2>Coordinates</h2>
+    <?php foreach ($site->find("coordinates")->children()->visible()->limit(1) as $coordinate): ?>
+        <a href="<?php echo $coordinate->url() ?>" style="color:<?php echo $coordinate->color() ?>;">
+          <div class="coordinate__marker" style="background-color:<?php echo $coordinate->color() ?>;">
+            <div class="coordinate__hole"></div>
+          </div>
+          <?= $coordinate->title() ?>
+        </a>
+    <?php endforeach; ?>
+  </section>
+
 </div>
 <?php snippet('footer') ?>

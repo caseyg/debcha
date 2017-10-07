@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <?php echo css('assets/css/index.css') ?>
   </head>
-<body id="<?php echo $page->slug() ?>">
+<body id="<?php echo $page->slug() ?>" class="parent-<?php echo $page->parent()->slug() ?>">
 
 <header>
     <nav id="topnav" class="navbar navbar-expand-lg navbar-light bg-light">

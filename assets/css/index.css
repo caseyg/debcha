@@ -169,3 +169,39 @@ strong {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px; }
+
+.coordinates,
+.parent-coordinates h1,
+.parent-coordinates h3,
+.coordinates h2 {
+  font-family: "larabiefont" !important; }
+
+.coordinates {
+  background: #DAEEE2;
+  padding: 15px; }
+
+.coordinate__marker {
+  background: #f00;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  margin: auto; }
+
+.coordinate__marker--small {
+  width: 100px;
+  height: 100px; }
+
+.coordinate__hole {
+  display: block;
+  background: #DAEEE2;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 45%; }
+
+.parent-coordinates {
+  background: #DAEEE2;
+  font-family: "larabiefont" !important; }

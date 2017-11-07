@@ -2,12 +2,12 @@ title: Page
 pages: true
 files: true
   fields:
-    description:
-      label: Description
-      type: text
+    caption:
+      label: Caption
+      type: textarea
     credit:
       label: Credit
-      type: textarea
+      type: text
 fields:
   title:
     label: Title

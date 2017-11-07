@@ -8,7 +8,6 @@
         <div class="coordinate__hole"></div>
       </div>
 
-      <h3 class="heading--border"><?php echo $page->dates() ?></h3>
       <h1><?php echo $page->title() ?></h1>
       <h2><?php echo $page->subtitle() ?></h2>
 

@@ -7,12 +7,12 @@ options:
 pages: false
 files:
   fields:
-    description:
-      label: Description
-      type: text
+    Caption:
+      label: Caption
+      type: textarea
     credit:
       label: Credit
-      type: textarea
+      type: text
 fields:
   title:
     label: Title

@@ -47,7 +47,7 @@
           <h3 class="mb-4">Related News</h3>
           <ul>
             <?php foreach ($news as $p): ?>
-              <li><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>, <?php if ($p->dates()->isNotEmpty()): ?><?php echo $p->dates() ?><?php endif; ?></li>
+              <li><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>, <?php if ($p->dates()->isNotEmpty()): ?><?php echo $p->date('F j, Y', 'dates') ?><?php endif; ?></li>
             <?php endforeach; ?>
           </ul>
         <?php endif; ?>

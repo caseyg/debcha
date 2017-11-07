@@ -1,5 +1,5 @@
-Description: test caption
+Description: Experimental zine (plywood, steel)
 
 ----
 
-Credit: test credit
+Credit: 

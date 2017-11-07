@@ -18,7 +18,7 @@ Builder:
 
 - 
   text: |
-    I write an intermittent newsletter, [Metafoundry](https://tinyletter.com/metafoundry) (with thanks to Warren Ellis for the name). I mostly talk about technology and culture and other obsessions of mine. WIRED included it as one of their ["21 Must-Follow Feeds for Business"](https://www.wired.com/2015/09/21-must-follow-feeds-world-business/) and it's on this [WNYC list](http://www.wnyc.org/story/newsletter-round-up/) of 'newsletters you'll actually be glad to see in your inbox'. But my favorite description of it comes from Clive Thompson, in his [WIRED piece](https://www.wired.com/2016/05/rise-of-the-newsletter/) on newsletters: *The pleasure in reading a newsletter comes from the view into a unitary mind at work—like my single favorite newsletter,* Metafoundry, *by my friend Debbie Chachra, a materials scientist. Reading it is like being plugged Oculus-style into her brain while she meditates on science and culture.*
+    I write an intermittent newsletter, [Metafoundry](https://tinyletter.com/metafoundry) (with thanks to [Warren Ellis](http://www.warrenellis.com) for the name). I mostly talk about technology and culture and other obsessions of mine. WIRED included it as one of their ["21 Must-Follow Feeds for Business"](https://www.wired.com/2015/09/21-must-follow-feeds-world-business/) and it's on this [WNYC list](http://www.wnyc.org/story/newsletter-round-up/) of 'newsletters you'll actually be glad to see in your inbox'. But my favorite description of it comes from Clive Thompson, in his [WIRED piece](https://www.wired.com/2016/05/rise-of-the-newsletter/) on newsletters: *The pleasure in reading a newsletter comes from the view into a unitary mind at work—like my single favorite newsletter,* Metafoundry, *by my friend Debbie Chachra, a materials scientist. Reading it is like being plugged Oculus-style into her brain while she meditates on science and culture.*
     
     [Three commutes: ultra-short fiction about self-driving cars.](http://tinyletter.com/metafoundry/letters/metafoundry-42-shadow-botafogos)
     [The valorization of 'making', and how we undervalue care.](https://tinyletter.com/metafoundry/letters/metafoundry-15-scribbled-leatherjackets)
@@ -31,3 +31,7 @@ Builder:
     [**Archive.**](http://tinyletter.com/metafoundry/archive)
     [**Subscribe.**](http://tinyletter.com/metafoundry/)
   _fieldset: bodytext
+
+----
+
+Themes: 

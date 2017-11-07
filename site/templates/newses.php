@@ -18,7 +18,7 @@
                 <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
               </h2>
               <?php if ($p->dates()->isNotEmpty()): ?>
-                <?php echo $p->dates() ?>
+                <?php echo $p->date('F j, Y', 'dates') ?>
               <?php endif; ?>
 
               <?php if ($p->image() != null): ?>

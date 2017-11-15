@@ -18,12 +18,14 @@
         <?php foreach ($projects as $p): ?>
           <div class="card mb-3">
             <div class="card-block">
-
                 <h4 class="card-title"><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></h4>
                 <?php if ($p->subtitle()->isNotEmpty()): ?>
                   <p class="card-text"><?php echo $p->subtitle() ?></p>
                 <?php endif; ?>
 
+                <?php if ($p->images()->count() > 0): ?>
+                  <figure><img src="<?php echo $p->images()->first()->crop(350)->url() ?>" alt=""></figure>
+                <?php endif; ?>
 
               <?php if ($p->tags()->isNotEmpty()): ?>
                 <p class="card-text">

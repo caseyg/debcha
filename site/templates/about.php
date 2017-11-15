@@ -1,5 +1,14 @@
 <?php snippet('header') ?>
 
+<div class="container py-3">
+  <div class="row py-3">
+    <div class="col-12">
+      <h1 class="pt-3"><?php echo $page->title() ?></h1>
+      <hr>
+    </div>
+  </div>
+</div>
+
 <div class="container mt-4">
   <div class="row">
     <div class="col-6 col-sm-3">
@@ -38,6 +47,12 @@
           <td colspan="2" class="contactinfo__disclaimer"><?php echo $page->disclaimer()->kt() ?></td>
         </tr>
       </table>
+    </div>
+  </div>
+  <hr style="clear:both;">
+  <div class="row">
+    <div class="col-12">
+      <?php echo $page->bio()->kt() ?>
     </div>
   </div>
 </div>

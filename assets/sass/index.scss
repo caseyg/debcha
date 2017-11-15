@@ -134,6 +134,10 @@ h6 {
   }
 }
 
+.parent-news h1 {
+  font-family: "vinyl";
+}
+
 .project-heading {
   background: lightgray;
   text-align: center;
@@ -263,4 +267,8 @@ strong {
   background: #DAEEE2;
   font-family: "larabiefont" !important;
 
+}
+
+figure img {
+  max-width: 100%;
 }

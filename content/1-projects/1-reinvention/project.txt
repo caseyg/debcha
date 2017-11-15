@@ -155,9 +155,6 @@ Builder:
     http://www.prism-magazine.org/nov11/reinvention.cfm
   date_text: November 2011
   _fieldset: excerpt
-- 
-  text: Thanks for reading!
-  _fieldset: bodytext
 
 ----
 

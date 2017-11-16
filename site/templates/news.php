@@ -19,9 +19,9 @@
           <?php if ($page->image()->caption() or $page->image()->credit()): ?>
             <figcaption>
               <?php if ($page->image()->credit()->isNotEmpty()): ?>
-                <small class="d-block text-right">(<?php echo $page->image()->credit() ?>)</small>
+                <small class="d-block text-right"><?php echo $page->image()->credit()->kt() ?></small>
               <?php endif; ?>
-              <?php echo $page->image()->caption() ?>
+              <?php echo $page->image()->caption()->kt() ?>
             </figcaption>
           <?php endif; ?>
         </figure>

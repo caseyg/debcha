@@ -35,9 +35,9 @@
                   <?php if ($p->image()->caption() or $p->image()->credit()): ?>
                     <figcaption>
                       <?php if ($p->image()->credit()->isNotEmpty()): ?>
-                        <small class="d-block text-right">(<?php echo $p->image()->credit() ?>)</small>
+                        <small class="d-block text-right"><?php echo $p->image()->credit()->kt() ?></small>
                       <?php endif; ?>
-                      <?php echo $p->image()->caption() ?>
+                      <?php echo $p->image()->caption()->kt() ?>
                     </figcaption>
                   <?php endif; ?>
                 </figure>

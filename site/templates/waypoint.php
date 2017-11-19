@@ -4,8 +4,8 @@
   <div class="row my-3">
     <div class="col-12">
 
-      <div class="coordinate__marker" style="background-color:<?php echo $page->color() ?>;">
-        <div class="coordinate__hole"></div>
+      <div class="waypoint__marker" style="background-color:<?php echo $page->color() ?>;">
+        <div class="waypoint__hole"></div>
       </div>
 
       <h1><?php echo $page->title() ?></h1>
@@ -27,12 +27,12 @@
         <?php endforeach; ?>
       <?php endif; ?>
       <div class="row">
-        <?php foreach ($page->siblings()->visible()->flip() as $coordinate): ?>
-          <a class="col text-center" href="<?php echo $coordinate->url() ?>" style="color:<?php echo $coordinate->color() ?>;">
-            <div style="background-color:<?php echo $coordinate->color() ?>;" class="coordinate__marker coordinate__marker--small">
-              <div class="coordinate__hole"></div>
+        <?php foreach ($page->siblings()->visible()->flip() as $waypoint): ?>
+          <a class="col text-center" href="<?php echo $waypoint->url() ?>" style="color:<?php echo $waypoint->color() ?>;">
+            <div style="background-color:<?php echo $waypoint->color() ?>;" class="waypoint__marker waypoint__marker--small">
+              <div class="waypoint__hole"></div>
             </div>
-            <?php echo $coordinate->title() ?>
+            <?php echo $waypoint->title() ?>
           </a>
         <?php endforeach; ?>
       </div>

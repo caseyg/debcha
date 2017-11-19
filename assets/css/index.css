@@ -174,17 +174,17 @@ strong {
   margin-right: 15px;
   margin-bottom: 15px; }
 
-.coordinates,
-.parent-coordinates h1,
-.parent-coordinates h3,
-.coordinates h2 {
+.waypoints,
+.parent-waypoints h1,
+.parent-waypoints h3,
+.waypoints h2 {
   font-family: "larabiefont" !important; }
 
-.coordinates {
+.waypoints {
   background: #DAEEE2;
   padding: 15px; }
 
-.coordinate__marker {
+.waypoint__marker {
   background: #f00;
   width: 200px;
   height: 200px;
@@ -192,11 +192,11 @@ strong {
   position: relative;
   margin: auto; }
 
-.coordinate__marker--small {
+.waypoint__marker--small {
   width: 100px;
   height: 100px; }
 
-.coordinate__hole {
+.waypoint__hole {
   display: block;
   background: #DAEEE2;
   width: 10%;
@@ -206,7 +206,7 @@ strong {
   top: 45%;
   left: 45%; }
 
-.parent-coordinates {
+.parent-waypoints {
   background: #DAEEE2;
   font-family: "larabiefont" !important; }
 

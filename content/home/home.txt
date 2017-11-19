@@ -6,9 +6,9 @@ Welcome: Deb Chachra is a Professor of Engineering at Olin College of Engineerin
 
 ----
 
-Coordinates: 
+waypoints: 
 
-## Coordinates
+## waypoints
 
 **Currently** doing a _developmental_ leave at the **University College London**, collaborating on engineering education with faculty there, as well as working on her own projects. When she’s not on campus, you can find her in various coffeeshops in the East End, at the British Library, in transit, or on Twitter.  [something about detailed contact information and a link to the page?]
 

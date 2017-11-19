@@ -1,11 +1,12 @@
-title: Coordinates
+title: Waypoints
 options:
   status: false
   delete: false
   url: false
   template: false
 pages: true
-  template: coordinate
+  template: waypoint
+  num: date
 files: false
 fields:
   title:

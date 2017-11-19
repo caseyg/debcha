@@ -20,8 +20,8 @@ fields:
   welcome:
     label: Welcome
     type:  textarea
-  coordinates:
-    label: Coordinates
+  waypoints:
+    label: waypoints
     type:  textarea
   intersections:
     label: Intersections

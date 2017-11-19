@@ -13,7 +13,10 @@ fields:
   title:
     label: Title
     type:  text
-    width: 1/2
+  image:
+    label: Image
+    type: image
+    width: 1/2    
   dates:
     label: Date
     type:  date

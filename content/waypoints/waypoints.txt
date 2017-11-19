@@ -1,4 +1,4 @@
-Title: waypoints
+Title: Waypoints
 
 ----
 

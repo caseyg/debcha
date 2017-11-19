@@ -11,7 +11,7 @@
   </div>
 
   <hr>
-
+<!--
   <div class="row">
     <div class="col-12">
       <h2>Intersections</h2>
@@ -33,7 +33,7 @@
       </ul>
     </div>
   </div>
-
+-->
   <section class="waypoints text-center">
     <h2>Waypoints</h2>
     <?php foreach ($site->find("waypoints")->children()->visible()->limit(1) as $waypoint): ?>

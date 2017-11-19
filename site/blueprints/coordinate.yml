@@ -1,6 +1,14 @@
 title: Coordinate
 pages: false
-files: false
+files:
+  sortable: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
+    credit:
+      label: Credit
+      type: textarea
 fields:
   title:
     label: Title

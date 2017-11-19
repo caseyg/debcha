@@ -7,7 +7,7 @@ fieldsets:
     fields:
       text:
         label: Text
-        type: textarea  
+        type: textarea
   bodytext:
     label: Body Text
     snippet: sections/bodytext
@@ -15,6 +15,16 @@ fieldsets:
       text:
         label: Text
         type: textarea
+  button:
+    label: Button
+    snippet: sections/button
+    fields:
+      text:
+        label: Text
+        type: text
+      link:
+        label: Link
+        type: url
   quote:
     label: Quote
     snippet: sections/quote

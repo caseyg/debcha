@@ -6,7 +6,7 @@
       <?php echo $page->welcome()->kt() ?>
     </div>
 <!--    <div class="col-sm-6">
-      <?php echo $page->coordinates()->kt() ?>
+      <?php echo $page->waypoints()->kt() ?>
     </div>-->
   </div>
 
@@ -34,14 +34,14 @@
     </div>
   </div>
 
-  <section class="coordinates text-center">
-    <h2>Coordinates</h2>
-    <?php foreach ($site->find("coordinates")->children()->visible()->limit(1) as $coordinate): ?>
-        <a href="<?php echo $coordinate->url() ?>" style="color:<?php echo $coordinate->color() ?>;">
-          <div class="coordinate__marker" style="background-color:<?php echo $coordinate->color() ?>;">
-            <div class="coordinate__hole"></div>
+  <section class="waypoints text-center">
+    <h2>Waypoints</h2>
+    <?php foreach ($site->find("waypoints")->children()->visible()->limit(1) as $waypoint): ?>
+        <a href="<?php echo $waypoint->url() ?>" style="color:<?php echo $waypoint->color() ?>;">
+          <div class="waypoint__marker" style="background-color:<?php echo $waypoint->color() ?>;">
+            <div class="waypoint__hole"></div>
           </div>
-          <?= $coordinate->title() ?>
+          <?= $waypoint->title() ?>
         </a>
     <?php endforeach; ?>
   </section>

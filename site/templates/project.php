@@ -24,14 +24,14 @@
       <?php endforeach ?>
     </div>
     <div class="col-12 col-md-4">
-      <h3 class="table-heading">Subjects</h3>
-      <table class="themes">
-        <?php foreach($pages->find('themes')->children()->visible() as $theme): ?>
+      <h3 class="table-heading">Sections</h3>
+      <table class="sections">
+        <?php foreach($pages->find('sections')->children()->visible() as $section): ?>
           <tr>
-            <td><?php if(str::contains($page->themes(), $theme->title())): ?>
+            <td><?php if(str::contains($page->sections(), $section->title())): ?>
               X
             <?php endif; ?></td>
-            <td><a href="<?php echo $theme->url() ?>"><?php echo $theme->title() ?></a></td>
+            <td><a href="<?php echo $section->url() ?>"><?php echo $section->title() ?></a></td>
           </tr>
         <?php endforeach; ?>
         <?php if ($page->tags()->isNotEmpty()): ?>

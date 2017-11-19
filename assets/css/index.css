@@ -69,7 +69,7 @@ h6 {
     #projects .card-text small {
       font-family: "sofia-pro-condensed"; }
 
-#themes {
+#sections {
   height: 100vh;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b1b0ae+0,878787+100 */
   background: #b1b0ae;
@@ -82,15 +82,15 @@ h6 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b0ae', endColorstr='#878787',GradientType=1 );
   /* IE6-9 */ }
-  #themes ol,
-  #themes ol h3 a {
+  #sections ol,
+  #sections ol h3 a {
     font-family: "larabiefont" !important;
     color: #fff; }
-  #themes ol {
+  #sections ol {
     border-bottom: 3px solid #fff;
     list-style-position: inside;
     padding: 0; }
-  #themes ol li {
+  #sections ol li {
     border: 3px solid #fff;
     border-bottom: 0;
     margin: 0 !important;
@@ -126,13 +126,13 @@ h6 {
   font-weight: bold;
   text-align: center; }
 
-table.themes {
+table.sections {
   text-transform: uppercase; }
-  table.themes td {
+  table.sections td {
     border: 2px solid #000;
     padding: 10px;
     min-width: 40px; }
-  table.themes a:link, table.themes a:visited {
+  table.sections a:link, table.sections a:visited {
     color: #000; }
 
 strong {

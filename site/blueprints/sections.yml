@@ -1,10 +1,11 @@
-title: Themes
+title: Sections
 options:
   status: false
   delete: false
   url: false
   template: false
-pages: theme
+pages:
+  template: section
 files: false
 fields:
   title:

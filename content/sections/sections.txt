@@ -1,5 +1,5 @@
-Title: Themes
+Title: Sections
 
 ----
 
-Text: 
+Text:

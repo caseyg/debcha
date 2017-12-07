@@ -10,7 +10,17 @@
     </div>-->
   </div>
 
+<!--
+<section id="sections">
+  <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
+      <a href="<?php echo $section->url() ?>" style="color:<?php echo $section->color() ?>;">
+        <?= $section->title() ?>
+      </a>
+  <?php endforeach; ?>
+</section>
   <hr>
+-->
+
 <!--
   <div class="row">
     <div class="col-12">
@@ -34,12 +44,15 @@
     </div>
   </div>
 -->
+
+  <hr>
+
   <section class="waypoints text-center">
     <h2>Waypoints</h2>
     <?php foreach ($site->find("waypoints")->children()->visible()->limit(1) as $waypoint): ?>
         <a href="<?php echo $waypoint->url() ?>" style="color:<?php echo $waypoint->color() ?>;">
           <div class="waypoint__marker" style="background-color:<?php echo $waypoint->color() ?>;">
-            <div class="waypoint__hole"></div>
+            &darr;
           </div>
           <?= $waypoint->title() ?>
         </a>

@@ -4,8 +4,8 @@
       <div class="row my-3">
         <div class="col-12">
 
-          <div class="waypoint__marker" style="background-color:<?php echo $page->color() ?>;">
-            <div class="waypoint__hole"></div>
+          <div class="waypoint__marker">
+            &darr;
           </div>
 
           <h1><?php echo $page->title() ?></h1>
@@ -37,7 +37,7 @@
         <?php if($page->hasNextVisible()): ?>
           <a class="col text-center" href="<?php echo $page->nextVisible()->url() ?>" style="color:<?php echo $page->nextVisible()->color() ?>;">
             <div style="background-color:<?php echo $page->nextVisible()->color() ?>;" class="waypoint__marker waypoint__marker--small">
-              <div class="waypoint__hole"></div>
+              &darr;
             </div>
             <?php echo $page->nextVisible()->title() ?>
           </a>

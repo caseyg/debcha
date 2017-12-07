@@ -239,29 +239,8 @@ strong {
 }
 
 .waypoint__marker {
-  background: #f00;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  position:relative;
+  position: relative;
   margin: auto;
-}
-
-.waypoint__marker--small {
-  width: 100px;
-  height: 100px;
-
-}
-
-.waypoint__hole {
-  display:block;
-  background: #DAEEE2;
-  width: 10%;
-  height: 10%;
-  border-radius: 50%;
-  position: absolute;
-    top: 45%;
-    left: 45%;
 }
 
 .parent-waypoints {

@@ -17,7 +17,8 @@ blockquote {
 
 body {
   font-family: "sofia-pro-condensed", sans-serif;
-  font-weight: 100; }
+  font-weight: 100;
+  font-size: 1.25em; }
 
 #topnav {
   border: 3px solid #000; }
@@ -68,33 +69,6 @@ h6 {
     #projects .card-title small,
     #projects .card-text small {
       font-family: "sofia-pro-condensed"; }
-
-#sections {
-  height: 100vh;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b1b0ae+0,878787+100 */
-  background: #b1b0ae;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #b1b0ae 0%, #878787 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #b1b0ae 0%, #878787 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #b1b0ae 0%, #878787 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b0ae', endColorstr='#878787',GradientType=1 );
-  /* IE6-9 */ }
-  #sections ol,
-  #sections ol h3 a {
-    font-family: "larabiefont" !important;
-    color: #fff; }
-  #sections ol {
-    border-bottom: 3px solid #fff;
-    list-style-position: inside;
-    padding: 0; }
-  #sections ol li {
-    border: 3px solid #fff;
-    border-bottom: 0;
-    margin: 0 !important;
-    padding: 1rem; }
 
 #news h2 {
   font-family: "vinyl"; }

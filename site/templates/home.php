@@ -1,25 +1,9 @@
 <?php snippet('header') ?>
 
-<div class="container mt-4">
-  <div class="row">
-    <div class="col-sm-6 lead">
+<div class="container my-4 pb-3 text-center">
+    <div class="lead col-sm-6 offset-sm-3">
       <?php echo $page->welcome()->kt() ?>
     </div>
-<!--    <div class="col-sm-6">
-      <?php echo $page->waypoints()->kt() ?>
-    </div>-->
-  </div>
-
-<!--
-<section id="sections">
-  <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
-      <a href="<?php echo $section->url() ?>" style="color:<?php echo $section->color() ?>;">
-        <?= $section->title() ?>
-      </a>
-  <?php endforeach; ?>
-</section>
-  <hr>
--->
 
 <!--
   <div class="row">
@@ -47,17 +31,32 @@
 
   <hr>
 
-  <section class="waypoints text-center">
-    <h2>Waypoints</h2>
-    <?php foreach ($site->find("waypoints")->children()->visible()->limit(1) as $waypoint): ?>
-        <a href="<?php echo $waypoint->url() ?>" style="color:<?php echo $waypoint->color() ?>;">
-          <div class="waypoint__marker" style="background-color:<?php echo $waypoint->color() ?>;">
-            &darr;
-          </div>
-          <?= $waypoint->title() ?>
-        </a>
-    <?php endforeach; ?>
-  </section>
+  <div class="row">
+    <div class="col">
+      <section id="sections" class="text-center">
+        <h2>Sections</h2>
+          <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
+              <a href="<?php echo $section->url() ?>" style="color:<?php echo $section->color() ?>;">
+                <?= $section->title() ?>
+              </a><br>
+          <?php endforeach; ?>
+        </ol>
+      </section>
+    </div>
+    <div class="col">
+      <section class="waypoints text-center">
+        <h2>Waypoints</h2>
+        <?php foreach ($site->find("waypoints")->children()->visible()->limit(1) as $waypoint): ?>
+            <a href="<?php echo $waypoint->url() ?>" style="color:<?php echo $waypoint->color() ?>;">
+              <div class="waypoint__marker" style="background-color:<?php echo $waypoint->color() ?>;">
+                &darr;
+              </div>
+              <?= $waypoint->title() ?>
+            </a>
+        <?php endforeach; ?>
+      </section>
+    </div>
+  </div>
 
 </div>
 <?php snippet('footer') ?>

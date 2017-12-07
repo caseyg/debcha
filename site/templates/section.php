@@ -1,51 +1,24 @@
 <?php snippet('header') ?>
-<div class="container-fluid project-heading">
+<div class="container-fluid" style="background:#BBA164;">
   <div class="container py-3">
     <div class="row py-3">
       <div class="col-12">
-        <h1 class="heading--project p-3"><?php echo $page->title() ?></h1>
-        <?php if ($page->subtitle()->isNotEmpty()): ?>
-          <span class="arrow">&darr;</span>
-          <h2 class="p-3"><?php echo $page->subtitle() ?></h2>
-        <?php endif; ?>
+        <small>Sections</small>
+        <hr>
+        <h1 class="pt-3" style="color:#fff;font-weight:900;">Gender, inclusivity and diversity</h1>
+        <h2 class="pb-3" style="color:#fff;font-weight:100;">in engineering and beyond</h2>
       </div>
     </div>
   </div>
 </div>
 <div class="container my-3">
   <div class="row my-3">
-    <div class="col-12 col-md-8">
-      <?php if ($page->text()->isNotEmpty()): ?>
-        <?php echo $page->text()->kt() ?>
-      <?php endif; ?>
+    <div class="col-12">
+      <p class="lead">
+        Issues around inclusivity and diversity, particular as they relate to gender and STEM (science, technology, engineering and mathematics) have been a running theme in my professional work.
+      </p>
+      <p>It begins, of course, with my own experiences in engineering (including being an undergraduate student at the time of the Ecole Polytechnique shootings), and carries through in my work with students at Olin College, which has had an institutional commitment to gender parity since its very first class. It’s an ongoing theme of my research in engineering education, and my colleagues and I regularly run workshops on gender and STEM for engineering and other educators. I’ve also written, spoken, and consulted on gender to broader audiences, ranging from writing for the comic book Bitch Planet and for the scientific journal Nature, to speaking at the SXSW Interactive Conference, to consulting work with the senior leadership of an advertising agency.</p>
 
-      <?php foreach($page->builder()->toStructure() as $section): ?>
-        <?php snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
-      <?php endforeach ?>
-    </div>
-    <div class="col-12 col-md-4">
-      <h3 class="table-heading">Sections</h3>
-      <table class="sections">
-        <?php foreach($pages->find('sections')->children()->visible() as $section): ?>
-          <tr>
-            <td><?php if(str::contains($page->sections(), $section->title())): ?>
-              X
-            <?php endif; ?></td>
-            <td><a href="<?php echo $section->url() ?>"><?php echo $section->title() ?></a></td>
-          </tr>
-        <?php endforeach; ?>
-        <?php if ($page->tags()->isNotEmpty()): ?>
-        <tr>
-          <td colspan="2" style="text-align:center; text-transform:none;"><strong>See also, projects tagged:</strong><br>
-            <?php foreach ($page->tags()->split($separator = ',') as $t): ?>
-              <a href="<?php echo url($page->parent()->uri() . '/' . url::paramsToString(['tag' => $t])) ?>">
-                #<?php echo html($t) ?>
-              </a>
-            <?php endforeach; ?>
-          </td>
-        </tr>
-      <?php endif; ?>
-      </table>
     </div>
   </div>
 </div>

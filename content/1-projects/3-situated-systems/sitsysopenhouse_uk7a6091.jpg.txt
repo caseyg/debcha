@@ -1,5 +1,0 @@
-Description: Map tiles
-
-----
-
-Credit: 

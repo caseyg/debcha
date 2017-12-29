@@ -28,8 +28,6 @@ body {
   #topnav .nav-item,
   #topnav .navbar-toggler {
     padding: .5rem 1rem; }
-  #topnav .navbar-brand {
-    font-weight: bold; }
   #topnav .nav-item {
     text-transform: uppercase;
     border-left: 3px solid #000;

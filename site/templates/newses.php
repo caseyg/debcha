@@ -18,6 +18,19 @@
             <span aria-hidden="true">&times;</span>
           </a>
           Viewing <?php echo html($news->count()) ?> post(s) tagged "<?php echo html($tag) ?>"
+          <?php if ($projects->count() > 0): ?>
+            <hr>
+              <h3 class="mb-4 h5">Related Projects</h3>
+              <ul class="list-unstyled list-inline">
+                <?php foreach ($projects as $p): ?>
+                  <li class="list-inline-item">
+                    <a class="btn btn-outline" href="<?php echo $p->url() ?>">
+                      <?php echo $p->title() ?>
+                    </a>
+                  </li>
+                <?php endforeach; ?>
+              </ul>
+          <?php endif; ?>
         </div>
       <?php endif; ?>
         <?php foreach ($news as $p): ?>

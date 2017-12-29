@@ -17,6 +17,12 @@ return function($site, $pages, $page) {
   $news   = $news->paginate(10);
   $pagination = $news->pagination();
 
-  return compact('news', 'tags', 'tag', 'pagination');
+  // related projects
+
+  if($tag = param('tag')) {
+    $projects = $pages->find('projects')->children()->visible()->filterBy('tags', $tag, ',');
+  }
+
+  return compact('news', 'tags', 'tag', 'pagination', 'projects');
 
 };

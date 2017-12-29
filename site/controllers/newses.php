@@ -3,11 +3,11 @@
 return function($site, $pages, $page) {
 
   // fetch the basic set of pages
-  $news = $pages->find('news')->children()->visible();
+  $news = $pages->find('news')->children()->visible()->sortBy('dates', 'desc');
 
   // add the tag filter
   if($tag = param('tag')) {
-    $news = $news->filterBy('tags', $tag, ',');
+    $news = $news->filterBy('tags', $tag, ',')->visible()->sortBy('dates', 'desc');
   }
 
   // fetch all tags

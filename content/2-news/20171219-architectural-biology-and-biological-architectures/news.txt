@@ -1,0 +1,22 @@
+Title: Architectural biology and biological architectures
+
+----
+
+Image: 
+
+----
+
+Dates: 2017-06-27
+
+----
+
+Text: 
+
+<iframe src="https://player.vimeo.com/video/232544872?color=57bf9e" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/232544872">Eyeo 2017 - Deb Chachra</a> from <a href="https://vimeo.com/eyeofestival">Eyeo Festival  //  INSTINT</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+I was delighted to be invited to speak at the brilliant (link: http://eyeofestival.com/ text: Eyeo Festival) in Minneapolis this year. I gave a talk about the last two hundred or so years, and the next fifty or so years of engineering structures, in which I argue that increasing computational power, embedded sensors, and the ability to carry out fabrication *in situ* means that architecture is approaching the geometries and responsiveness to mechanical force of tissues in organisms. And yes, I was indeed delighted at the chance to spend fifteen minutes explaining bone biology to a roomful of designers.
+
+----
+
+Tags: speaking,design,technology,engineering,biology,materials

@@ -21,7 +21,11 @@ Tags: education,technology,writing
 Builder: 
 
 - 
-  text: 'I write a *regular column*, “Reinvention”, for the American Society for Engineering Education’s Prism magazine.'
+  text: >
+    I write a regular column,
+    “Reinvention”, for the American
+    Society for Engineering Education’s
+    Prism magazine.
   _fieldset: leadtext
 - 
   text: 'The focus of the column is changing ideas and norms in engineering education. Recent columns have discussed [technology in the classroom](http://www.asee-prism.org/reinvention-sum/), the role of [self-efficacy in learning](http://www.asee-prism.org/reinvention-dec-2/), and moving away from the post-World War II ‘[culture of order](http://www.asee-prism.org/reinvention-dec/)’ in engineering.'
@@ -163,3 +167,7 @@ Text:
 ----
 
 Themes: Engineering education, Gender and inclusivity
+
+----
+
+Sections: 

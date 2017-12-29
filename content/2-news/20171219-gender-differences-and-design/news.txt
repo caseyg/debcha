@@ -1,0 +1,21 @@
+Title: Gender differences and design
+
+----
+
+Image: lego-friends-olivia-s-house.jpg
+
+----
+
+Dates: 2015-04-11
+
+----
+
+Text: 
+
+I was invited to give a talk at the (link: http://designstudies.wixsite.com/symposium text: Matter[ing] by Design) symposium at Parsons/New School, and I spoke about gender differences and design, including Lego, snowboards, artificial hearts, and engineering education. My talk starts at the 19 minute mark, but I highly recommend the talk that follows mine (at 35min) by (link: https://www.nytimes.com/2014/02/16/technology/intels-sharp-eyed-social-scientist.html?_r=0 text: Genevieve Bell), an anthropologist, who was then at Intel.
+
+<iframe id="ls_embed_1513715201" src="https://livestream.com/accounts/1369487/events/3938941/videos/83571440/player?width=640&height=360&enableInfo=false&defaultDrawer=&autoPlay=false&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+
+----
+
+Tags: gender,design,engineering,education,lego,speaking

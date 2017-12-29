@@ -6,5 +6,11 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="/assets/js/instantclick.min.js" data-no-instant></script>
     <script data-no-instant>InstantClick.init();</script>
+    <script src="/assets/js/jquery.fitvids.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".container").fitVids();
+      });
+    </script>
   </body>
 </html>

@@ -22,14 +22,26 @@
   </div>
   <hr>
   <div class="row">
-    <div class="alert alert-light text-center col lead">
-      <figure>
-        <img src="/assets/Collaboratory banner.jpg" alt="">
-
-      </figure>
-      For more of my work around gender and STEM, <a href="/news/tag:gender">click here</a>.
+    <div class="col">
+      <h2>Women at Olin College</h2>
     </div>
-    <div class="alert alert-warning col mx-3 text-center p-3 lead"><br>If your organization is interested in working with me as a consultant, please send me an&nbsp;e-mail:<br><br> <a href="mailto:debbie.chachra@olin.edu" class="btn btn-lg btn-primary">✉️&nbsp;&nbsp;debbie.chachra@olin.edu</a><br><br></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col offset-2">
+      <a href="http://www.wbur.org/news/2014/05/27/women-engineers-olin-college" class="text-secondary">
+        <h3 class="mb-3">“Why women don’t study engineering--and what one Mass. college is doing about it”</h3>
+        <figure><img src="/assets/0527_olin-1000x645.jpg"></figure>
+        <img src="/assets/wbur-logo.svg" width="100px" alt="" class="mb-3">
+      </a>
+    </div>
+    <div class="col">
+      <a href="http://www.wbur.org/edify/2017/11/06/olin-college-women-engineers" class="text-secondary">
+        <h3 class="mb-3">“At one college, women engineers help reshape the machine shop”</h3>
+        <figure><img src="/assets/1106_olin-machine-shop03-1000x666.jpg"></figure>
+        <img src="/assets/wbur-logo.svg" width="100px" alt="" class="mb-3">
+      </a>
+    </div>
   </div>
   <hr>
   <div class="row">
@@ -68,29 +80,6 @@
         <h3>To reduce gender biases, acknowledge them</h3>
         <p>A former Google engineer’s memo on diversity reveals psychological blind spots, not biological differences, says Debbie Chachra.</p>
         <small>22 August 2017</small>
-      </a>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col">
-      <h2>Women at Olin College</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col offset-2">
-      <a href="http://www.wbur.org/news/2014/05/27/women-engineers-olin-college" class="text-secondary">
-        <h3 class="mb-3">“Why women don’t study engineering--and what one Mass. college is doing about it”</h3>
-        <figure><img src="/assets/0527_olin-1000x645.jpg"></figure>
-        <img src="/assets/wbur-logo.svg" width="100px" alt="" class="mb-3">
-      </a>
-    </div>
-    <div class="col">
-      <a href="http://www.wbur.org/edify/2017/11/06/olin-college-women-engineers" class="text-secondary">
-        <h3 class="mb-3">“At one college, women engineers help reshape the machine shop”</h3>
-        <figure><img src="/assets/1106_olin-machine-shop03-1000x666.jpg"></figure>
-        <img src="/assets/wbur-logo.svg" width="100px" alt="" class="mb-3">
       </a>
     </div>
   </div>

@@ -3,7 +3,7 @@
 <div class="container py-3">
   <div class="row py-3">
     <div class="col-12">
-      <h1 class="pt-3"><?php echo $page->title() ?></h1>
+      <h1 class="pt-3"><?php echo $page->title()->kirbytextRaw() ?></h1>
       <p class="lead pb-3"><?php echo $page->date('F j, Y', 'dates') ?></p>
       <hr>
     </div>

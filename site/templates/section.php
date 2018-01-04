@@ -128,8 +128,8 @@
 
   <hr>
   <div class="row">
-    <div class="alert alert-warning col mx-3 text-center p-3 lead"><br>If your organization is interested in working with me as a consultant, please send me an&nbsp;e-mail:<br><br> <a href="mailto:debbie.chachra@olin.edu" class="btn btn-lg btn-primary">✉️&nbsp;&nbsp;debbie.chachra@olin.edu</a><br><br></div>
-    <div class="alert alert-light text-center col lead">
+    <div class="alert col mx-3 p-3 lead"><br>Speaking about engineering and gender, especially with student groups, is important to me, if you'd like to inquire about [TKTKTK], please send me an&nbsp;e-mail:<br><br> <a href="mailto:debbie.chachra@olin.edu">debbie.chachra@olin.edu</a><br><br></div>
+    <div class="alert alert-light col lead">
       <figure>
         <img src="/assets/Collaboratory banner.jpg" alt="">
 

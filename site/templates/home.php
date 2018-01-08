@@ -46,7 +46,7 @@
     <div class="col">
       <section class="waypoints text-center">
         <h2>Waypoints</h2>
-        <?php foreach ($site->find("waypoints")->children()->visible()->limit(1) as $waypoint): ?>
+        <?php foreach ($site->find("waypoints")->children()->sortBy('dates', 'desc')->visible()->limit(1) as $waypoint): ?>
             <a href="<?php echo $waypoint->url() ?>" style="color:<?php echo $waypoint->color() ?>;">
               <div class="waypoint__marker" style="background-color:<?php echo $waypoint->color() ?>;">
                 &darr;

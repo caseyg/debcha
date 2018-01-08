@@ -6,7 +6,9 @@ options:
   template: false
 pages: true
   template: waypoint
-  num: date
+  num:
+    mode: date
+    field: dates
   sort: dates desc
 files: false
 fields:

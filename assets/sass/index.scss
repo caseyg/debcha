@@ -70,11 +70,15 @@ h6 {
 }
 
 #projects {
-  background: lightgray;
+  background: #eee;
   .card {
-    padding: 15px;
-    border: 2px solid #000;
+    background: none;
+    border: none;
     border-radius: 0;
+
+    img {
+      width: 100%;
+    }
   }
   .card-title,
   .card-text {

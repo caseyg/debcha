@@ -50,11 +50,13 @@ h6 {
   font-family: "sofia-pro-condensed"; }
 
 #projects {
-  background: lightgray; }
+  background: #eee; }
   #projects .card {
-    padding: 15px;
-    border: 2px solid #000;
+    background: none;
+    border: none;
     border-radius: 0; }
+    #projects .card img {
+      width: 100%; }
   #projects .card-title,
   #projects .card-text {
     font-family: vinyl; }

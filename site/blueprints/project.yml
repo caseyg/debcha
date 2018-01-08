@@ -16,6 +16,19 @@ fields:
   subtitle:
     label: Subtitle
     type: text
+  color:
+    label: Color
+    type: colorlist
+    options:
+      - "#eb1717"
+      - "#28db78"
+      - "#333333"
+      - "#e74c3c"
+      - "#353a62"
+      - "#9b59b6"
+      - "#d45353"
+      - "#ffd041"
+      - "#e91e63"
   sections:
     label: sections
     type: multiselect

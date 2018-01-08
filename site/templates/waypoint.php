@@ -13,10 +13,10 @@
         </div>
       </div>
       <div class="row">
-        <?php if ($page->text()->isNotEmpty()): ?>
           <div class="lead col-md-8 offset-md-2">
-            <?php echo $page->text()->kt() ?>
-
+            <?php if ($page->text()->isNotEmpty()): ?>
+              <?php echo $page->text()->kt() ?>
+            <?php endif; ?>
             <?php if ($page->image()): ?>
               <figure>
                 <img src="<?php echo $page->image()->url() ?>" alt="<?php echo $page->image()->caption() ?> <?php if ($page->image()->credit()): ?>(<?php echo $page->image()->credit() ?>)<?php endif; ?>">
@@ -31,15 +31,14 @@
               </figure>
             <?php endif; ?>
           </div>
-        <?php endif; ?>
       </div>
       <div class="row">
-        <?php if($page->hasNextVisible()): ?>
-          <a class="col text-center" href="<?php echo $page->nextVisible()->url() ?>" style="color:<?php echo $page->nextVisible()->color() ?>;">
-            <div style="background-color:<?php echo $page->nextVisible()->color() ?>;" class="waypoint__marker waypoint__marker--small">
+        <?php if($page->hasPrevVisible()): ?>
+          <a class="col text-center" href="<?php echo $page->prevVisible()->url() ?>" style="color:<?php echo $page->prevVisible()->color() ?>;">
+            <div style="background-color:<?php echo $page->prevVisible()->color() ?>;" class="waypoint__marker waypoint__marker--small">
               &darr;
             </div>
-            <?php echo $page->nextVisible()->title() ?>
+            <?php echo $page->prevVisible()->title() ?>
           </a>
         <?php endif ?>
       </div>

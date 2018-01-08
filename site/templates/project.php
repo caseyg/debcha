@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
-<div class="container-fluid project-heading">
+
+<div class="container-fluid project-heading" style="background-color:<?php echo $page->color() ?>;">
   <div class="container py-3">
     <div class="row py-3">
       <div class="col-12">
@@ -12,6 +13,7 @@
     </div>
   </div>
 </div>
+
 <div class="container my-3">
   <div class="row my-3">
     <div class="col-12 col-md-8">

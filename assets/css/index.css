@@ -1,6 +1,12 @@
 .active {
   font-weight: bold; }
 
+hr {
+  border-top: 5px solid #000; }
+
+h1 {
+  font-weight: 900; }
+
 .excerpt {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   padding: 15px;
@@ -20,7 +26,8 @@ body {
   font-weight: 100; }
 
 #topnav {
-  border: 3px solid #000; }
+  border: 5px solid #000;
+  margin-top: 25px; }
   #topnav.navbar {
     padding: 0;
     background-color: #fff !important; }
@@ -30,12 +37,12 @@ body {
     padding: .5rem 1rem; }
   #topnav .nav-item {
     text-transform: uppercase;
-    border-left: 3px solid #000;
+    border-left: 5px solid #000;
     letter-spacing: 1px; }
   #topnav .navbar-toggler {
     border: 0;
     border-radius: 0;
-    border-left: 3px solid #000; }
+    border-left: 5px solid #000; }
   #topnav a:link,
   #topnav a:visited {
     color: #000; }
@@ -50,11 +57,12 @@ h6 {
   font-family: "sofia-pro-condensed"; }
 
 #projects {
-  background: #eee; }
+  background: gray; }
   #projects .card {
     background: none;
     border: none;
-    border-radius: 0; }
+    border-radius: 0;
+    color: #ccc; }
     #projects .card img {
       width: 100%; }
   #projects .card-title,
@@ -64,10 +72,13 @@ h6 {
     #projects .card-title a:visited,
     #projects .card-text a:link,
     #projects .card-text a:visited {
-      color: #000; }
+      color: #eee; }
     #projects .card-title small,
     #projects .card-text small {
       font-family: "sofia-pro-condensed"; }
+  #projects a:link.text-muted,
+  #projects a:visited.text-muted {
+    color: #ccc !important; }
 
 #news h2 {
   font-family: "vinyl"; }
@@ -157,10 +168,6 @@ strong {
   background: #DAEEE2;
   padding: 15px; }
 
-.waypoint__marker {
-  position: relative;
-  margin: auto; }
-
 .parent-waypoints {
   background: #DAEEE2;
   font-family: "larabiefont" !important; }
@@ -180,3 +187,28 @@ footer {
   footer img {
     display: block;
     margin: auto; }
+
+.projects {
+  background: #DAEEE2;
+  padding: 15px; }
+
+.project__marker {
+  background: #f00;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative; }
+
+.project__marker--small {
+  width: 100px;
+  height: 100px; }
+
+.project__hole {
+  display: block;
+  background: gray;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 45%; }

@@ -10,7 +10,7 @@
   </head>
 <body id="<?php echo $page->slug() ?>" class="parent-<?php echo $page->parent()->slug() ?>">
 
-<header>
+<header class="container">
     <nav id="topnav" class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="/"><strong>Debbie Chachra</strong>, PhD</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

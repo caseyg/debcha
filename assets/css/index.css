@@ -165,3 +165,16 @@ strong {
 
 figure img {
   max-width: 100%; }
+
+footer {
+  display: block;
+  background: #476184;
+  color: #979797; }
+  footer a {
+    color: #979797;
+    text-decoration: underline; }
+  footer a:hover {
+    color: #d7d7d7; }
+  footer img {
+    display: block;
+    margin: auto; }

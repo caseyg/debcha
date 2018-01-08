@@ -215,3 +215,23 @@ strong {
 figure img {
   max-width: 100%;
 }
+
+footer {
+  display: block;
+  background: #476184;
+  color: #979797;
+
+  a {
+    color: #979797;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: lighten(#979797, 25%);
+  }
+
+  img {
+    display: block;
+    margin: auto;
+  }
+}

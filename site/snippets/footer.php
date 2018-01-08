@@ -1,4 +1,19 @@
-    <footer class="container-fluid py-3">
+    <footer class="container-fluid py-3 mt-3">
+      <p class="text-center">
+        Sitemap:
+        <a href="/">Home</a>
+        &bull;
+        <a href="/waypoints">Waypoints</a>
+        &bull;
+        <a href="/sections">Sections</a>
+        &bull;
+        <a href="/projects">Projects</a>
+        &bull;
+        <a href="/news">News</a>
+        &bull;
+        <a href="/about">About</a>
+      </p>
+      <img src="/assets/dc.svg" alt="D C">
     </footer>
     <script src="/assets/js/jquery.slim.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>

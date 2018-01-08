@@ -5,30 +5,6 @@
       <?php echo $page->welcome()->kt() ?>
     </div>
 
-<!--
-  <div class="row">
-    <div class="col-12">
-      <h2>Intersections</h2>
-      <ul class="list-unstyled mb-4">
-        <?php foreach ($page->intersections()->toStructure() as $i): ?>
-          <li>
-            <?php if ($i->link()->isNotBlank()): ?>
-              <a href="<?php echo $i->link() ?>">
-                <?php if ($i->image()->isNotEmpty()): ?>
-                  <figure>
-                    <img src="<?php echo $i->image()->toFile()->url() ?>" class="img-fluid">
-                  </figure>
-                <?php endif; ?>
-                <?php echo $i->title() ?>
-              </a>
-            <?php endif; ?>
-          </li>
-        <?php endforeach; ?>
-      </ul>
-    </div>
-  </div>
--->
-
   <hr>
 
   <div class="row">
@@ -51,12 +27,41 @@
               <div class="waypoint__marker" style="background-color:<?php echo $waypoint->color() ?>;">
                 &darr;
               </div>
+              <figure>
+                <img src="<?php echo $waypoint->image()->url() ?>" alt="">
+              </figure>
               <?= $waypoint->title() ?>
             </a>
         <?php endforeach; ?>
       </section>
     </div>
   </div>
+
+  <hr>
+
+  <!--
+    <div class="row">
+      <div class="col-12">
+        <h2>Intersections</h2>
+        <ul class="list-unstyled mb-4">
+          <?php foreach ($page->intersections()->toStructure() as $i): ?>
+            <li>
+              <?php if ($i->link()->isNotBlank()): ?>
+                <a href="<?php echo $i->link() ?>">
+                  <?php if ($i->image()->isNotEmpty()): ?>
+                    <figure>
+                      <img src="<?php echo $i->image()->toFile()->url() ?>" class="img-fluid">
+                    </figure>
+                  <?php endif; ?>
+                  <?php echo $i->title() ?>
+                </a>
+              <?php endif; ?>
+            </li>
+          <?php endforeach; ?>
+        </ul>
+      </div>
+    </div>
+  -->
 
 </div>
 <?php snippet('footer') ?>

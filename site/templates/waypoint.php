@@ -4,10 +4,6 @@
       <div class="row my-3">
         <div class="col-12">
 
-          <div class="waypoint__marker">
-            &darr;
-          </div>
-
           <h1><?php echo $page->title() ?></h1>
           <h2><?php echo $page->subtitle() ?></h2>
         </div>

@@ -55,3 +55,7 @@ Themes: Technology and culture
 ----
 
 Sections: 
+
+----
+
+Color: #28db78

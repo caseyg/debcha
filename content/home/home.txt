@@ -6,11 +6,7 @@ Welcome: Deb Chachra is a Professor of Engineering at Olin College of Engineerin
 
 ----
 
-waypoints: 
-
-## waypoints
-
-**Currently** doing a _developmental_ leave at the **University College London**, collaborating on engineering education with faculty there, as well as working on her own projects. When she’s not on campus, you can find her in various coffeeshops in the East End, at the British Library, in transit, or on Twitter.  [something about detailed contact information and a link to the page?]
+Waypoints: 
 
 ----
 
@@ -95,7 +91,6 @@ Intersections:
     How military infrastructure shaped Bay
     Area tech culture.
   paragraph: 'In the spring of 2016, I collaborated with Georgina Voss, Sherri Wasserman and Ingrid Burrington on Situated Systems, the inaugural project of the Experimental Research Lab at Autodesk’s Pier 9 creative fabrication facility in San Francisco. The project focused on the ongoing influence of military infrastructure on technology culture in the Bay Area and beyond, with a focus on carrying out and communicating our research by creating artifacts in addition to more traditional documentation. Read more. [link to Project page]'
-  image: >
-    screen-shot-2017-05-18-at-12.17.17-pm.png
+  image: ""
   imagecredit: ""
   link: ""

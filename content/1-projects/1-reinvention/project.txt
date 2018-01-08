@@ -171,3 +171,7 @@ Themes: Engineering education, Gender and inclusivity
 ----
 
 Sections: 
+
+----
+
+Color: #e74c3c

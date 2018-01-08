@@ -7,6 +7,7 @@ options:
 pages: true
   template: waypoint
   num: date
+  sort: dates asc
 files: false
 fields:
   title:

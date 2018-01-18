@@ -9,31 +9,5 @@ Text:
 Builder: 
 
 - 
-  text: >
-    Issues around gender and STEM (science,
-    technology, engineering and mathematics)
-    have been a running theme in my
-    professional work. It begins, of course,
-    with my own experiences in engineering
-    (including being an undergraduate
-    student at the time of the Ecole
-    Polytechnique shootings), and carries
-    through my work with students at Olin
-    College, which has had an institutional
-    commitment to gender parity since its
-    very first class. It’s an ongoing
-    theme of my research in engineering
-    education, and my colleagues and I
-    regularly run workshops on gender and
-    STEM for engineering and other
-    educators. I’ve also written, spoken,
-    and consulted on gender to broader
-    audiences, ranging from writing for a
-    comic book, to speaking at the SXSW
-    Interactive Conference, to consulting
-    work with the senior leadership of an
-    advertising agency. Improving
-    inclusivity and diversity is a theme
-    that runs through nearly everything I do
-    professionally.
+  text: 'Issues around gender and STEM (science, technology, engineering and mathematics) have been a running theme in my professional work. It begins, of course, with my own experiences in engineering (including being an undergraduate student at the time of the [Ecole Polytechnique shootings](https://tinyletter.com/metafoundry/letters/metafoundry-17-twenty-five-years-later)), and carries through my work with students at [Olin College](http://www.olin.edu), which has had an institutional commitment to gender parity since its very first class. It’s an ongoing theme of my research in engineering education, and my colleagues and I regularly run workshops on gender and STEM for engineering and other educators. I’ve also written, spoken, and consulted on gender and inclusivity to broader audiences, ranging from writing for a comic book, to speaking at the SXSW Interactive Conference, to consulting work with the senior leadership of an advertising agency.'
   _fieldset: bodytext

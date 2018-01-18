@@ -1,5 +1,10 @@
 <?php snippet('header') ?>
-<div class="container-fluid" style="background:#BBA164;">
+<style media="screen">
+  body {
+    background:#BBA164;
+  }
+</style>
+<div class="container-fluid">
   <div class="container py-3">
     <div class="row py-3">
       <div class="col">

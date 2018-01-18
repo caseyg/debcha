@@ -1,14 +1,19 @@
 <?php snippet('header') ?>
 
-<div class="container my-4 pb-3 text-center">
-    <div class="lead col-sm-6 offset-sm-3">
-      <?php echo $page->welcome()->kt() ?>
+<div class="container py-3">
+  <div class="row py-3">
+    <div class="col-12">
+      <h1 class="pt-3">
+        <?php echo $page->welcome()->kt() ?>
+      </h1>
+      <hr>
     </div>
+  </div>
+</div>
 
-  <hr>
-
+<div class="container my-4 pb-3 text-center">
   <div class="row">
-    <div class="col">
+    <div class="col-sm-6">
       <section id="sections" class="text-center">
         <h2>Sections</h2>
           <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
@@ -19,7 +24,7 @@
         </ol>
       </section>
     </div>
-    <div class="col">
+    <div class="col-sm-6">
       <section class="waypoints text-center">
         <h2>Waypoints</h2>
         <?php foreach ($site->find("waypoints")->children()->sortBy('dates', 'desc')->visible()->limit(1) as $waypoint): ?>
@@ -39,7 +44,6 @@
 
   <hr>
 
-  <!--
     <div class="row">
       <div class="col-12">
         <h2>Intersections</h2>
@@ -61,7 +65,6 @@
         </ul>
       </div>
     </div>
-  -->
 
 </div>
 <?php snippet('footer') ?>

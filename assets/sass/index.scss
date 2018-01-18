@@ -2,6 +2,14 @@
   font-weight: bold;
 }
 
+hr {
+  border-top:5px solid #000;
+}
+
+h1 {
+  font-weight: 900;
+}
+
 .excerpt {
   box-shadow: 0 5px 5px rgba(0,0,0,.1);
   padding: 15px;
@@ -24,7 +32,8 @@ body {
 }
 
 #topnav {
-  border: 3px solid #000;
+  border: 5px solid #000;
+  margin-top: 25px;
 
   &.navbar {
     padding: 0;
@@ -39,14 +48,14 @@ body {
 
   .nav-item {
     text-transform: uppercase;
-    border-left: 3px solid #000;
+    border-left: 5px solid #000;
     letter-spacing: 1px;
   }
 
   .navbar-toggler {
     border: 0;
     border-radius: 0;
-    border-left: 3px solid #000;
+    border-left: 5px solid #000;
   }
 
   .navbar-light .navbar-toggler-icon {
@@ -70,22 +79,31 @@ h6 {
 }
 
 #projects {
-  background: lightgray;
+  background: gray;
   .card {
-    padding: 15px;
-    border: 2px solid #000;
+    background: none;
+    border: none;
     border-radius: 0;
+    color: #ccc;
+
+    img {
+      width: 100%;
+    }
   }
   .card-title,
   .card-text {
     font-family: vinyl;
     a:link,
     a:visited {
-      color: #000;
+      color: #eee;
     }
     small {
       font-family: "sofia-pro-condensed"
     }
+  }
+  a:link.text-muted ,
+  a:visited.text-muted {
+    color: #ccc!important;
   }
 }
 
@@ -196,14 +214,10 @@ strong {
 .waypoints h2 {
   font-family: "larabiefont" !important;
 }
+
 .waypoints {
   background: #DAEEE2;
   padding: 15px;
-}
-
-.waypoint__marker {
-  position: relative;
-  margin: auto;
 }
 
 .parent-waypoints {
@@ -235,3 +249,33 @@ footer {
     margin: auto;
   }
 }
+
+
+
+
+
+.projects {
+  background: #DAEEE2;
+  padding: 15px; }
+
+.project__marker {
+  background: #f00;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.project__marker--small {
+  width: 100px;
+  height: 100px; }
+
+.project__hole {
+  display: block;
+  background: gray;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 45%; }

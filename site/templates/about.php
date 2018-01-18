@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <div class="container py-3">
-  <div class="row py-3">
+  <div class="row pt-3">
     <div class="col-12">
       <h1 class="pt-3"><?php echo $page->title() ?></h1>
       <hr>
@@ -17,36 +17,38 @@
       </figure>
     </div>
     <div class="col-sm-9">
-      <div class="lead">
-        <?php echo $page->about()->kt() ?>
+      <div class="row">
+        <div class="h4 col-sm-5">
+          <?php echo $page->about()->kt() ?>
+        </div>
+        <table class="contactinfo">
+          <tr>
+            <th>Email</th>
+            <th>Twitter</th>
+          </tr>
+          <tr>
+            <td><a href="mailto:<?php echo $page->email() ?>"><?php echo $page->email() ?></a></td>
+            <td><a href="http://twitter.com/<?php echo $page->twitter() ?>">@<?php echo $page->twitter() ?></a></td>
+          </tr>
+          <tr>
+            <th colspan="2">Mailing Address</th>
+          </tr>
+          <tr>
+            <td colspan="2"><?php echo $page->mailingaddress()->kt() ?></td>
+          </tr>
+          <tr>
+            <th>Phone*</th>
+            <th>Fax**</th>
+          </tr>
+          <tr>
+            <td><?php echo $page->phone()->kt() ?></td>
+            <td><?php echo $page->fax()->kt() ?></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="contactinfo__disclaimer"><?php echo $page->disclaimer()->kt() ?></td>
+          </tr>
+        </table>
       </div>
-      <table class="contactinfo">
-        <tr>
-          <th>Email</th>
-          <th>Twitter</th>
-        </tr>
-        <tr>
-          <td><a href="mailto:<?php echo $page->email() ?>"><?php echo $page->email() ?></a></td>
-          <td><a href="http://twitter.com/<?php echo $page->twitter() ?>">@<?php echo $page->twitter() ?></a></td>
-        </tr>
-        <tr>
-          <th colspan="2">Mailing Address</th>
-        </tr>
-        <tr>
-          <td colspan="2"><?php echo $page->mailingaddress()->kt() ?></td>
-        </tr>
-        <tr>
-          <th>Phone*</th>
-          <th>Fax**</th>
-        </tr>
-        <tr>
-          <td><?php echo $page->phone()->kt() ?></td>
-          <td><?php echo $page->fax()->kt() ?></td>
-        </tr>
-        <tr>
-          <td colspan="2" class="contactinfo__disclaimer"><?php echo $page->disclaimer()->kt() ?></td>
-        </tr>
-      </table>
     </div>
   </div>
   <hr style="clear:both;">

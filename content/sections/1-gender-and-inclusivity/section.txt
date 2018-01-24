@@ -9,5 +9,149 @@ Text:
 Builder: 
 
 - 
-  text: 'Issues around gender and STEM (science, technology, engineering and mathematics) have been a running theme in my professional work. It begins, of course, with my own experiences in engineering (including being an undergraduate student at the time of the [Ecole Polytechnique shootings](https://tinyletter.com/metafoundry/letters/metafoundry-17-twenty-five-years-later)), and carries through my work with students at [Olin College](http://www.olin.edu), which has had an institutional commitment to gender parity since its very first class. It’s an ongoing theme of my research in engineering education, and my colleagues and I regularly run workshops on gender and STEM for engineering and other educators. I’ve also written, spoken, and consulted on gender and inclusivity to broader audiences, ranging from writing for a comic book, to speaking at the SXSW Interactive Conference, to consulting work with the senior leadership of an advertising agency.'
+  text: >
+    Issues around gender and STEM (science,
+    technology, engineering and mathematics)
+    have been a running theme in my
+    professional work.
+  _fieldset: leadtext
+- 
+  text: 'It begins, of course, with my own experiences in engineering (including being an undergraduate student at the time of the [Ecole Polytechnique shootings](https://tinyletter.com/metafoundry/letters/metafoundry-17-twenty-five-years-later)), and carries through my work with students at [Olin College](http://www.olin.edu), which has had an institutional commitment to gender parity since its very first class. It’s an ongoing theme of my research in engineering education, and my colleagues and I regularly run workshops on gender and STEM for engineering and other educators. I’ve also written, spoken, and consulted on gender and inclusivity to broader audiences, ranging from writing for a comic book, to speaking at the SXSW Interactive Conference, to consulting work with the senior leadership of an advertising agency.'
   _fieldset: bodytext
+- 
+  text: Women at Olin College
+  _fieldset: section-header
+- 
+  text: |
+    (columns...)
+    
+    <a href="http://www.wbur.org/news/2014/05/27/women-engineers-olin-college">
+    ### “Why women don’t study engineering--and what one Mass. college is doing about it”
+    
+    (image: 0527_olin-1000x645.jpg class:mt-3)
+    
+    (image: wbur-logo.svg width:100px class:mb-3)
+    </a>
+    
+    ++++
+    
+    <a href="http://www.wbur.org/edify/2017/11/06/olin-college-women-engineers">
+    ### “At one college, women engineers help reshape the machine shop”
+    
+    (image:1106_olin-machine-shop03-1000x666.jpg class:mt-3)
+    
+    (image: wbur-logo.svg width:100px class:mb-3)
+    </a>
+    
+    (...columns)
+  _fieldset: bodytext
+- 
+  text: Writing
+  _fieldset: section-header
+- 
+  text: '(image: bitchplanet-comp.jpg)'
+  _fieldset: bodytext
+- 
+  text: |
+    (columns...)
+    
+    <div class="alert-light p-3">
+    &rarr; I write a regular column, “Reinvention”, for the American Society for Engineering Education’s Prism magazine.
+    (link: /projects/reinvention text: Read more "Reinvention" columns class: btn btn-outline-primary)
+    </div>
+    
+    ++++
+    
+    <a href="http://www.asee-prism.org/reinvention-feb/" style="color:#000;">
+    (image: asee-logo.png width: 100px class: mb-3)
+    
+    ### Partway to Gender Parity
+    
+    > We now share the data showing gender differences with students as they start their projects, and ask them to think about why they believe those disparities occurred.
+    
+    <small>February 2014</small>
+    </a>
+    
+    
+    ++++
+    
+    <a href="https://www.nature.com/news/to-reduce-gender-biases-acknowledge-them-1.22502" style="color: #000;">
+    (image: nature-logo.jpg width: 100px class: mb-3)
+    
+    ### To reduce gender biases, acknowledge them
+    
+    A former Google engineer’s memo on diversity reveals psychological blind spots, not biological differences, says Debbie Chachra.
+    
+    <small>22 August 2017</small>
+    </a>
+    
+    (...columns)
+  _fieldset: bodytext
+- 
+  text: Research
+  _fieldset: section-header
+- 
+  text: |
+    (columns...)
+    
+    <a href="https://peer.asee.org/exploring-gender-and-self-confidence-in-engineering-students-a-multi-method-approach" class="text-secondary">
+    ### Exploring Gender and Self-Confidence in Engineering Students: a Multi-Method Approach
+    
+    Despite generally higher academic achievement, female students display lower academic self- confidence than males. Of particular interest to engineering educators is the difference in confidence in mathematical or scientific skills. Gender differences among engineering students have been explored by the Persistence in Engineering survey, a component of the Academic Pathways Study (APS), a multi-method longitudinal study...
+    </a>
+    
+    (link: # text: Download Paper, PDF class: btn btn-outline-primary)
+    
+    ++++
+    
+    <a href="https://peer.asee.org/interactive-panel-improving-the-experiences-of-marginalized-students-on-engineering-design-teams" class="text-secondary">
+    
+    ### Improving the Experiences of Marginalized Students on Engineering Design Teams
+    
+    Interactive Panel: Improving the Experiences of Marginalized Students on Engineering Design TeamsIt is widely recognized that collaborative learning (i.e., group work) benefits student learning bycreating an educational environment in which students achieve higher grades, learn at a deeperlevel and retain information longer. However, group work is fraught with challenges...
+    </a>
+    
+    (link: # text: Download Paper, PDF class: btn btn-outline-primary)
+    
+    (...columns)
+  _fieldset: bodytext
+- 
+  text: Speaking
+  _fieldset: section-header
+- 
+  text: |
+    ### Gender Differences and Design
+    
+    #### Matter(ing) by Design symposium, The New School
+    
+    (image: newschool.png)
+    
+    <small class="mt-3">(Presentation starts at 26:30)</small>
+  _fieldset: bodytext
+- 
+  text: |
+    (columns...)
+    <div class="alert mx-3 p-3 lead">
+    Speaking about engineering and gender, especially with student groups, is important to me, if you'd like to inquire about [TKTKTK], please send me an e-mail:
+    
+    (link:mailto:debbie.chachra@olin.edu text: debbie.chachra@olin.edu)
+    </div>
+    
+    ++++
+    
+    <div class="alert alert-light lead">
+    (image: Collaboratory banner.jpg)
+    
+    For more of my work around gender and STEM, (link: /news/tag:gender text: click here).
+    </div>
+    
+    (...columns)
+  _fieldset: bodytext
+
+----
+
+Subtitle: in engineering and beyond
+
+----
+
+Color: #ffd041

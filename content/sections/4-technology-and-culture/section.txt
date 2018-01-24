@@ -3,3 +3,11 @@ Title: Technology and culture
 ----
 
 Builder: 
+
+----
+
+Subtitle: 
+
+----
+
+Color: #9b59b6

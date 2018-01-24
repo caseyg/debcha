@@ -1,6 +1,13 @@
 label: Sections
 type: builder
 fieldsets:
+  section-header:
+    label: Section Header
+    snippet: sections/section-header
+    fields:
+      text:
+        label: Text
+        type: text
   leadtext:
     label: Lead Text
     snippet: sections/leadtext

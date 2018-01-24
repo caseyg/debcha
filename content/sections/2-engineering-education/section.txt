@@ -4,6 +4,28 @@ Title: Engineering education
 
 Builder: 
 
+- 
+  text: |
+    EdTech Mindset interview -- scanned PDF (similar to BITCH PLANET)
+    
+    (image: http://placehold.it/1000x500)
+  _fieldset: bodytext
+- 
+  text: Consulting
+  _fieldset: section-header
+- 
+  text: |
+    (columns...)
+    
+    Reinventions column -- link to project page [done]
+    
+    ++++
+    
+    Design Week Portland talk -- vid -- direct link to site OR news page
+    
+    (...columns)
+  _fieldset: bodytext
+
 ----
 
 Subtitle: 

@@ -5,14 +5,17 @@ Title: Engineering education
 Builder: 
 
 - 
+  text: INTRO TEXT TBD.
+  _fieldset: leadtext
+- 
+  text: Consulting
+  _fieldset: section-header
+- 
   text: |
     EdTech Mindset interview -- scanned PDF (similar to BITCH PLANET)
     
     (image: http://placehold.it/1000x500)
   _fieldset: bodytext
-- 
-  text: Consulting
-  _fieldset: section-header
 - 
   text: |
     (columns...)
@@ -24,6 +27,9 @@ Builder:
     Design Week Portland talk -- vid -- direct link to site OR news page
     
     (...columns)
+  _fieldset: bodytext
+- 
+  text: "# Here's some content."
   _fieldset: bodytext
 
 ----

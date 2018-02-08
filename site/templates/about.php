@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<?php snippet('nav') ?>
 
 <div class="container py-3">
   <div class="row pt-3">

@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<?php snippet('nav') ?>
 
     <div class="container my-3 text-center">
       <div class="row my-3">

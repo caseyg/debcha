@@ -1,4 +1,6 @@
 <?php snippet('header') ?>
+<?php snippet('nav') ?>
+
 <style media="screen">
   body {
     background: <?php echo $page->color() ?>;

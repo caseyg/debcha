@@ -7,6 +7,7 @@
       <div class="col-12">
         <h1 class="pt-3 h3">
           <br><br><br><br><br><br><br>
+          <br><br><br>
           <?php echo $page->welcome()->kt() ?>
         </h1>
       </div>
@@ -14,15 +15,19 @@
   </div>
 </section>
 
-<section class="home__sections container">
-  <h2>Sections</h2>
-    <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
-        <a href="<?php echo $section->url() ?>" style="color:<?php echo $section->color() ?>;">
-          <?= $section->title() ?>
-        </a><br>
-    <?php endforeach; ?>
-  </ol>
+<section class="home__sections mt-1">
+  <div class="container">
+    <div class="row">
+      <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
+          <div class="col-12 col-md-6 p-3">
+            <a href="<?php echo $section->url() ?>" class="h3 card sections__card" style="background-color:<?php echo $section->color() ?>;color:#fff;">
+              <?= $section->title() ?>
+            </a>
 
+          </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
 </section>
 
 <div class="container my-4 pb-3 text-center">

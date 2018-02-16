@@ -195,8 +195,14 @@ footer {
   top: 45%;
   left: 45%; }
 
-.home__collage {
+.home__collage,
+.home__sections {
   background: #DAEEE2; }
+
+.sections__card {
+  display: block;
+  padding: 100px 15px;
+  text-align: center; }
 
 /* Kirby Columns */
 .columns {

@@ -2,17 +2,17 @@ Title: Home
 
 ----
 
-Welcome: Deb Chachra is a Professor of Engineering at Olin College of Engineering in Needham, Massachusetts. (link: /about text: Read more &rarr;)
+Welcome: Deb Chachra is a Professor of Engineering at Olin College of Engineering in Needham, Massachusetts. (link: /about text: Read more &rarr; class: btn btn-outline btn-outline-dark btn-sm)
 
 ----
 
-Waypoints: 
+Waypoints:
 
 ----
 
-Intersections: 
+Intersections:
 
-- 
+-
   title: Materials engineering, by bees
   sentence: >
     Investigating plastic nest cell linings
@@ -31,7 +31,7 @@ Intersections:
   image: c-inaequalis.png
   imagecredit: Olin College/Gill Pratt
   link: ""
-- 
+-
   title: Comic books meet gender schemas
   sentence: >
     Gender schemas in the comic book Bitch
@@ -40,7 +40,7 @@ Intersections:
   image: ""
   imagecredit: ""
   link: ""
-- 
+-
   title: Rethinking making TEST
   sentence: >
     Our society overvalues making and
@@ -59,7 +59,7 @@ Intersections:
   image: c-inaequalis.png
   imagecredit: David Catchpole/Flickr
   link: ""
-- 
+-
   title: Codesigning learning experiences
   sentence: >
     Creating new learning experiences for
@@ -83,7 +83,7 @@ Intersections:
   image: ""
   imagecredit: Olin College
   link: ""
-- 
+-
   title: >
     The military roots of tech culture in
     the Bay Area

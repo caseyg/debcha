@@ -32,34 +32,6 @@ body {
 }
 
 #topnav {
-  border: 5px solid #000;
-  margin-top: 25px;
-
-  &.navbar {
-    padding: 0;
-    background-color: #fff!important;
-  }
-
-  .navbar-brand,
-  .nav-item,
-  .navbar-toggler {
-    padding: .5rem 1rem;
-  }
-
-  .nav-item {
-    text-transform: uppercase;
-    border-left: 5px solid #000;
-    letter-spacing: 1px;
-  }
-
-  .navbar-toggler {
-    border: 0;
-    border-radius: 0;
-    border-left: 5px solid #000;
-  }
-
-  .navbar-light .navbar-toggler-icon {
-  }
 
   a:link,
   a:visited {

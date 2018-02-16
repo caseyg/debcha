@@ -5,10 +5,10 @@
   <div class="container py-3">
     <div class="row py-3">
       <div class="col-12">
-        <h1 class="pt-3">
+        <h1 class="pt-3 h3">
+          <br><br><br><br><br><br><br>
           <?php echo $page->welcome()->kt() ?>
         </h1>
-        <hr>
       </div>
     </div>
   </div>

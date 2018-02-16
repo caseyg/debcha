@@ -213,6 +213,9 @@ footer {
   top: 45%;
   left: 45%; }
 
+.home__collage {
+  background: #DAEEE2; }
+
 /* Kirby Columns */
 .columns {
   margin-right: -2rem; }

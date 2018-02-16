@@ -1,28 +1,34 @@
 <?php snippet('header') ?>
-<?php snippet('nav') ?>
+<section class="home__collage">
+  <?php snippet('nav') ?>
 
-<div class="container py-3">
-  <div class="row py-3">
-    <div class="col-12">
-      <h1 class="pt-3">
-        <?php echo $page->welcome()->kt() ?>
-      </h1>
-      <hr>
+  <div class="container py-3">
+    <div class="row py-3">
+      <div class="col-12">
+        <h1 class="pt-3">
+          <?php echo $page->welcome()->kt() ?>
+        </h1>
+        <hr>
+      </div>
     </div>
   </div>
-</div>
+</section>
+
+<section class="home__sections container">
+  <h2>Sections</h2>
+    <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
+        <a href="<?php echo $section->url() ?>" style="color:<?php echo $section->color() ?>;">
+          <?= $section->title() ?>
+        </a><br>
+    <?php endforeach; ?>
+  </ol>
+
+</section>
 
 <div class="container my-4 pb-3 text-center">
   <div class="row">
     <div class="col-sm-6">
       <section id="sections" class="text-center">
-        <h2>Sections</h2>
-          <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
-              <a href="<?php echo $section->url() ?>" style="color:<?php echo $section->color() ?>;">
-                <?= $section->title() ?>
-              </a><br>
-          <?php endforeach; ?>
-        </ol>
       </section>
     </div>
     <div class="col-sm-6">

@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Welcome: Deb Chachra is a Professor of Engineering at Olin College of Engineering in Needham, Massachusetts. (link: /about text: Read more &rarr; class: btn btn-outline btn-outline-dark btn-sm)
+Welcome: is a Professor of Engineering at Olin College of Engineering in Needham, Massachusetts. (link: /about text: Read more &rarr; class: btn btn-outline btn-outline-dark btn-sm ml-2)
 
 ----
 

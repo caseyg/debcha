@@ -38,4 +38,4 @@ Subtitle:
 
 ----
 
-Color: #28db78
+Color: #E3E9F1

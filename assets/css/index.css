@@ -140,19 +140,20 @@ strong {
   margin-right: 15px;
   margin-bottom: 15px; }
 
-.waypoints,
-.parent-waypoints h1,
-.parent-waypoints h3,
-.waypoints h2 {
-  font-family: "larabiefont" !important; }
-
 .waypoints {
-  background: #DAEEE2;
+  background: #222;
+  color: #ccc;
   padding: 15px; }
+  .waypoints a:link, .waypoints a:visited {
+    color: #ccc; }
 
 .parent-waypoints {
-  background: #DAEEE2;
-  font-family: "larabiefont" !important; }
+  background: #222;
+  color: #ccc; }
+  .parent-waypoints a:link, .parent-waypoints a:visited {
+    color: #ccc; }
+  .parent-waypoints #topnav a:link, .parent-waypoints #topnav a:visited {
+    color: #ccc; }
 
 figure img {
   max-width: 100%; }
@@ -202,7 +203,22 @@ footer {
 .sections__card {
   display: block;
   padding: 100px 15px;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border: 1px solid #fff; }
+
+.sections__card:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  color: black;
+  transform: translateY(-5px); }
+
+.home__news a:link, .home__news a:visited {
+  color: #222; }
+
+.home__news h2 {
+  font-weight: 900; }
 
 .home__news li {
   border-top: 1px solid lightgray; }

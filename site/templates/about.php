@@ -12,14 +12,14 @@
 
 <div class="container mt-4">
   <div class="row">
-    <div class="col-6 col-sm-3">
+    <div class="col-6 col-lg-3">
       <figure>
         <img src="<?php echo $page->portrait()->toFile()->resize('900')->url() ?>" class="img-fluid">
       </figure>
     </div>
-    <div class="col-sm-9">
+    <div class="col-12 col-lg-9">
       <div class="row">
-        <div class="h4 col-sm-5">
+        <div class="h4 col-12 col-lg-5">
           <?php echo $page->about()->kt() ?>
         </div>
         <table class="contactinfo">

@@ -1,7 +1,8 @@
 <?php snippet('header') ?>
-<?php snippet('nav') ?>
-
 <div class="container-fluid project-heading" style="background-color:<?php echo $page->color() ?>;">
+
+  <?php snippet('nav') ?>
+
   <div class="container py-3">
     <div class="row py-3">
       <div class="col-12">

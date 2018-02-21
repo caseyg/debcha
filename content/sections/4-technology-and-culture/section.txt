@@ -10,4 +10,4 @@ Subtitle:
 
 ----
 
-Color: #9b59b6
+Color: #D6ECDF

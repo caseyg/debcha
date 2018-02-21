@@ -1,12 +1,6 @@
 <?php snippet('header') ?>
-<?php snippet('nav') ?>
-
-<style media="screen">
-  body {
-    background: <?php echo $page->color() ?>;
-  }
-</style>
-<div class="container-fluid">
+<div class="container-fluid" style="background: <?php echo $page->color() ?>;">
+  <?php snippet('nav') ?>
   <div class="container py-3">
     <div class="row py-3">
       <div class="col">
@@ -16,8 +10,8 @@
             </a> /
         <?php endforeach; ?>
         <hr>
-        <h1 class="pt-3" style="color:#fff;font-weight:900;"><?php echo $page->title()->kirbytextRaw() ?></h1>
-        <h2 class="pb-3" style="color:#fff;font-weight:100;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
+        <h1 class="pt-3" style="font-weight:900;"><?php echo $page->title()->kirbytextRaw() ?></h1>
+        <h2 class="pb-3" style="font-weight:100;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
       </div>
     </div>
   </div>
@@ -30,7 +24,7 @@
 
 </div>
 
-<div class="container-fluid" style="background:#BBA164;">
+<div class="container-fluid" style="background: <?php echo $page->color() ?>;">
   <div class="container py-3">
     <div class="row py-3">
       <div class="col">

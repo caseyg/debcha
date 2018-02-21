@@ -180,22 +180,26 @@ strong {
   margin-bottom: 15px;
 }
 
-.waypoints,
-.parent-waypoints h1,
-.parent-waypoints h3,
-.waypoints h2 {
-  font-family: "larabiefont" !important;
-}
-
 .waypoints {
-  background: #DAEEE2;
+  background: #222;
+  color: #ccc;
   padding: 15px;
+  a:link, a:visited {
+    color: #ccc;
+  }
 }
 
 .parent-waypoints {
-  background: #DAEEE2;
-  font-family: "larabiefont" !important;
-
+  background: #222;
+  color: #ccc;
+  a:link, a:visited {
+    color: #ccc;
+  }
+  #topnav {
+    a:link, a:visited {
+      color: #ccc;
+    }
+  }
 }
 
 figure img {
@@ -262,6 +266,26 @@ footer {
   display: block;
   padding: 100px 15px;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+//  transition: all .25s;
+  border: 1px solid #fff;
+}
+
+.sections__card:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,.25);
+  color: rgba(0,0,0,1);
+  transform:translateY(-5px);
+}
+
+.home__news {
+  a:link, a:visited {
+    color: #222;
+  }
+  h2 {
+    font-weight: 900;
+  }
 }
 
 .home__news li {

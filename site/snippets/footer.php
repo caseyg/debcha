@@ -1,4 +1,4 @@
-    <footer class="container-fluid py-3 mt-3">
+    <footer class="container-fluid py-3">
       <p class="text-center">
         Sitemap:
         <a href="/">Home</a>

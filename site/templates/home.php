@@ -20,7 +20,7 @@
     <div class="row">
       <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
           <div class="col-12 col-md-6 p-3">
-            <a href="<?php echo $section->url() ?>" class="h3 card sections__card" style="background-color:<?php echo $section->color() ?>;color:#fff;">
+            <a href="<?php echo $section->url() ?>" class="h3 card sections__card" style="background-color:<?php echo $section->color() ?>;">
               <?= $section->title() ?>
             </a>
 
@@ -68,7 +68,7 @@
     </div>
   </div>
 
-  <hr>
+<!--  <hr>
 
     <div class="row">
       <div class="col-12">
@@ -80,7 +80,7 @@
                 <a href="<?php echo $i->link() ?>">
                   <?php if ($i->image()->isNotEmpty()): ?>
                     <figure>
-                      <img src="<?php echo $i->image()->toFile()->url() ?>" class="img-fluid">
+                      <img src="<?php echo $i->image()->toFile()->crop(500,500)->url() ?>" class="img-fluid rounded-circle">
                     </figure>
                   <?php endif; ?>
                   <?php echo $i->title() ?>
@@ -91,6 +91,6 @@
         </ul>
       </div>
     </div>
-
+-->
 </div>
 <?php snippet('footer') ?>

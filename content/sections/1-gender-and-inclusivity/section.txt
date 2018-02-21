@@ -154,4 +154,4 @@ Subtitle: in engineering and beyond
 
 ----
 
-Color: #ffd041
+Color: #DFD0C5

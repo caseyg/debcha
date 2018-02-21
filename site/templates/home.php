@@ -30,10 +30,24 @@
   </div>
 </section>
 
-<div class="container my-4 pb-3 text-center">
+<div class="container my-4 pb-3">
   <div class="row">
     <div class="col-sm-6">
-      <section id="sections" class="text-center">
+      <section class="home__news">
+        <h2><a href="/news">News</a></h2>
+        <ul class="list-unstyled">
+        <?php foreach ($site->find("news")->children()->sortBy('dates', 'desc')->visible()->limit(5) as $news): ?>
+          <li class="media mb-1">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1 pt-3"><a href="<?php echo $news->url() ?>"><?= $news->title() ?></a></h5>
+              <?php if ($news->dates()->isNotEmpty()): ?>
+                <p class="lead"><?php echo $news->date('F j, Y', 'dates') ?></p>
+              <?php endif; ?>
+            </div>
+            <?php if ($news->image()): ?><img class="ml-3 mb-3 pt-3 img-fluid" src="<?php echo $news->image()->crop(100,100)->url() ?>"><?php endif; ?>
+          </li>
+        <?php endforeach; ?>
+      </ul>
       </section>
     </div>
     <div class="col-sm-6">

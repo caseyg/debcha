@@ -204,6 +204,9 @@ footer {
   padding: 100px 15px;
   text-align: center; }
 
+.home__news li {
+  border-top: 1px solid lightgray; }
+
 /* Kirby Columns */
 .columns {
   margin-right: -2rem; }

@@ -4,10 +4,11 @@
   <div class="container py-3">
     <div class="row py-3">
       <div class="col">
-        <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
+        <?php $sections = $site->find("sections")->children()->visible(); ?>
+        <?php foreach ($sections as $section): ?>
             <a href="<?php echo $section->url() ?>" <?php if($page->title() == $section->title()): ?>class="active"<?php endif; ?>>
               <?= $section->title() ?>
-            </a> /
+            </a> <?php if ($section->title() != $sections->last()->title()): ?> /<?php endif; ?>
         <?php endforeach; ?>
         <hr>
         <h1 class="pt-3" style="font-weight:900;"><?php echo $page->title()->kirbytextRaw() ?></h1>

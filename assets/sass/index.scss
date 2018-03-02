@@ -52,6 +52,7 @@ h6 {
 
 #projects {
   background: gray;
+
   .card {
     background: none;
     border: none;
@@ -283,6 +284,11 @@ footer {
   a:link, a:visited {
     color: #222;
   }
+  li a {
+      font-family: "Vinyl";
+      font-weight: bold;
+      font-size: 26px;
+  }
   h2 {
     font-weight: 900;
   }
@@ -290,6 +296,13 @@ footer {
 
 .home__news li {
   border-top: 1px solid lightgray;
+}
+
+.section__nav {
+  a:link,
+  a:visited {
+    color: #000;
+  }
 }
 
 /* Kirby Columns */

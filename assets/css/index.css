@@ -217,11 +217,20 @@ footer {
 .home__news a:link, .home__news a:visited {
   color: #222; }
 
+.home__news li a {
+  font-family: "Vinyl";
+  font-weight: bold;
+  font-size: 26px; }
+
 .home__news h2 {
   font-weight: 900; }
 
 .home__news li {
   border-top: 1px solid lightgray; }
+
+.section__nav a:link,
+.section__nav a:visited {
+  color: #000; }
 
 /* Kirby Columns */
 .columns {

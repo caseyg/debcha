@@ -4,12 +4,14 @@
   <div class="container py-3">
     <div class="row py-3">
       <div class="col">
-        <?php $sections = $site->find("sections")->children()->visible(); ?>
-        <?php foreach ($sections as $section): ?>
-            <a href="<?php echo $section->url() ?>" <?php if($page->title() == $section->title()): ?>class="active"<?php endif; ?>>
-              <?= $section->title() ?>
-            </a> <?php if ($section->title() != $sections->last()->title()): ?> /<?php endif; ?>
-        <?php endforeach; ?>
+        <div class="section__nav">
+          <?php $sections = $site->find("sections")->children()->visible(); ?>
+          <?php foreach ($sections as $section): ?>
+              <a href="<?php echo $section->url() ?>" <?php if($page->title() == $section->title()): ?>class="active"<?php endif; ?>>
+                <?= $section->title() ?>
+              </a> <?php if ($section->title() != $sections->last()->title()): ?> /<?php endif; ?>
+          <?php endforeach; ?>
+        </div>
         <hr>
         <h1 class="pt-3" style="font-weight:900;"><?php echo $page->title()->kirbytextRaw() ?></h1>
         <h2 class="pb-3" style="font-weight:100;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>

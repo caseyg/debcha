@@ -4,9 +4,9 @@
 <div class="container py-3">
   <div class="row py-3">
     <div class="col-12">
-      <h1 class="pt-3"><?php echo $page->title() ?></h1>
+      <h1 class="pt-3" style="color:#eee;"><?php echo $page->title() ?></h1>
 
-      <hr>
+      <hr style="border-color:#eee;">
 
       <?php if ($tag = param('tag')): ?>
         <div class="alert alert-warning alert-dismissible fade show" role="alert">

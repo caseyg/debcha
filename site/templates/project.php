@@ -1,16 +1,12 @@
 <?php snippet('header') ?>
-<div class="container-fluid project-heading" style="background-color:<?php echo $page->color() ?>;">
-
+<div class="container-fluid" style="background: <?php echo $page->color() ?>;">
   <?php snippet('nav') ?>
-
   <div class="container py-3">
     <div class="row py-3">
-      <div class="col-12">
-        <h1 class="heading--project p-3"><?php echo $page->title() ?></h1>
-        <?php if ($page->subtitle()->isNotEmpty()): ?>
-          <span class="arrow">&darr;</span>
-          <h2 class="p-3"><?php echo $page->subtitle() ?></h2>
-        <?php endif; ?>
+      <div class="col">
+        <h1 class="pt-3" style="font-weight:900;color:#fff;"><?php echo $page->title()->kirbytextRaw() ?></h1>
+        <h2 class="pb-3" style="font-weight:100;color:#fff;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
+        <hr style="border-color:#fff;">
       </div>
     </div>
   </div>
@@ -18,7 +14,7 @@
 
 <div class="container my-3">
   <div class="row my-3">
-    <div class="col-12 col-md-8">
+    <div class="col-12 col-md-8 offset-md-2">
       <?php if ($page->text()->isNotEmpty()): ?>
         <?php echo $page->text()->kt() ?>
       <?php endif; ?>
@@ -27,9 +23,11 @@
         <?php snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
       <?php endforeach ?>
     </div>
-    <div class="col-12 col-md-4">
+  </div>
+  <div class="row">
+    <div class="col-12">
       <h3 class="table-heading">Sections</h3>
-      <table class="sections">
+      <table class="sections" style="margin:auto;">
         <?php foreach($pages->find('sections')->children()->visible() as $section): ?>
           <tr>
             <td><?php if(str::contains($page->sections(), $section->title())): ?>

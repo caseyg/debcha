@@ -24,6 +24,27 @@
       <?php endforeach ?>
     </div>
   </div>
+
+  <div class="row nav--page">
+    <div class="col">
+      <?php if($page->hasNextVisible()): ?>
+        <a href="<?php echo $page->nextVisible()->url() ?>">
+          <small>&larr; Previous Project</small><br>
+          <?php echo $page->nextVisible()->title() ?>
+        </a>
+      <?php endif ?>    </div>
+    <div class="col text-center"><small><a href="/projects">&uarr; Back to Projects</a></small></div>
+    <div class="col text-right">
+      <?php if($page->hasPrevVisible()): ?>
+        <a href="<?php echo $page->prevVisible()->url() ?>">
+          <small>&rarr; Next Project</small><br>
+          <?php echo $page->prevVisible()->title() ?>
+        </a>
+      <?php endif ?>
+    </div>
+  </div>
+
+
   <div class="row">
     <div class="col-12">
       <h3 class="table-heading">Sections</h3>

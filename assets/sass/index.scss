@@ -12,6 +12,20 @@ a:visited {
   text-decoration: underline;
 }
 
+.btn {
+  text-decoration: none!important;
+}
+
+.nav--page {
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
 h1 {
   font-weight: 900;
 }

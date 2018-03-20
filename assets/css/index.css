@@ -9,6 +9,16 @@ a:visited {
   color: inherit;
   text-decoration: underline; }
 
+.btn {
+  text-decoration: none !important; }
+
+.nav--page a:link,
+.nav--page a:visited {
+  text-decoration: none; }
+
+.nav--page a:hover {
+  text-decoration: underline; }
+
 h1 {
   font-weight: 900; }
 

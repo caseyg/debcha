@@ -25,8 +25,6 @@
 <style media="screen">
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
-
 .carousel {
   margin-bottom: 40px;
 }

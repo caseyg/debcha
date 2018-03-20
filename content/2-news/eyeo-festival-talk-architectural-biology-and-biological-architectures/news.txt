@@ -1,0 +1,26 @@
+Title: Eyeo Festival talk: "Architectural Biology and Biological Architectures"
+
+----
+
+Image: 
+
+----
+
+Dates: 2017-06-27
+
+----
+
+Text: 
+
+<iframe src="https://player.vimeo.com/video/232544872?color=57bf9e" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/232544872">Eyeo 2017 - Deb Chachra</a> from <a href="https://vimeo.com/eyeofestival">Eyeo Festival // INSTINT</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+It was a pleasure and an honor to be asked to give a talk at the (link: http://eyeofestival.com/ text: Eyeo Festival) in (link: http://eyeofestival.com/2017/ text: 2017), an annual conference at the intersection of art, data, and creative technology. I took the opportunity to talk about the evolution of architecture and other structures, especially over the last century or two. I argue that, as the result of increased computation power and more flexible fabrication technologies, these structures have the possibility of having the same sort of structural responsiveness that we see in biological systems, like bone. I have to admit that I was really excited to get to talk about how bones respond to mechanical forces and how cells remove and replace damaged bone to a friendly, enthusiastic audience. 
+
+Here's the abstract, or you can watch the full talk thanks to the lovely Eyeo organizers. 
+
+
+*The natural and the human-made have mostly been distinct--we can usually tell them apart at a glance. But over the last century or so, cutting-edge architecture (like museums and corporate headquarters) has gradually transformed from rectilinear and repetitive modernism, to organic and random. While cultural factors no doubt play a part, this aesthetic progression can be linked to the rise of computing technologies for stress analysis, design, and fabrication. Meanwhile, inside each of us, our bones have been doing this all along: bone cells sense mechanical load and create complex, organic geometries that change over time in response to how we use our bodies. But today, the coupling of evolutionary algorithms with 3D printing means our synthetic systems are starting to converge on the capacities of these biological systems. One day, human-made buildings and structures might be able to grow and change in response to use in the same way that our bones, blood vessels, and other biological systems do. *
+
+----
+
+Tags: 

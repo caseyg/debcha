@@ -49,7 +49,13 @@ Builder:
   text: Writing
   _fieldset: section-header
 - 
-  text: '(image: bitchplanet-comp.jpg)'
+  text: >
+    I write about gender, diversity,
+    inclusion and bias, in engineering and
+    beyond, for a wide range of audiences.
+  _fieldset: leadtext
+- 
+  text: '(image: bitchplanet-comp.jpg link:/news/bitch-planet-tktktk)'
   _fieldset: bodytext
 - 
   text: |

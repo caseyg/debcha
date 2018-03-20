@@ -1,0 +1,26 @@
+Title: CEEA keynote: "Towards Innovative Engineering Education"
+
+----
+
+Image: 
+
+----
+
+Dates: 2017-07-20
+
+----
+
+Text: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0BF0inKodHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+Last summer, I was invited to give the opening keynote of the (link: http://ceea2017.engineering.utoronto.ca/ text: 2017 Canadian Engineering Education Association Conference), which was held at my alma mater, the University of Toronto. It was a genuine honor to be asked to speak there, and enjoyable to be back on campus after so many years away, seeing both what was new and what was unchanged. Here's my abstract of the talk: 
+
+>Innovation doesn’t exist for its own sake; the value of innovation is that addresses needs that are previously unrecognized or unmet, sometimes with emergent technology. The way we teach engineering has deep historical roots, and is shaped by culture, experience and technology (some of which we no longer even immediately recognize as technology): from the founding of the first universities a thousand years ago, to the Cold War, to how Tetris and Minecraft embody different kinds of learning behaviour. But there are also clear unmet needs, including inclusivity, motivation, and preparing our students for a professional life that’s very different from previous generations. In this wide-ranging talk, I’ll discuss how we think about learning engineering, rooting it in concepts drawn from educational psychology (including motivation and self-efficacy), and from research in new approaches to engineering education (such as the role of hands-on and project-based learning), with the goal of using this deeper understanding to both create innovative learning experiences for our students and to better equip them to foster innovation themselves.
+
+Also, I tend to talk fast at the best of times but I seem to be especially mile-a-minute in this talk—my apology to all the non-native English speakers. I'm going to try to pull together a transcript as well.
+
+----
+
+Tags: engineering,education,innovation,speaking

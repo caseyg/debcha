@@ -1,0 +1,25 @@
+Title: Lessons from engineering for law education
+
+----
+
+Image: 
+
+----
+
+Dates: 2015-04-02
+
+----
+
+Text: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0qB2tpfu-Xo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+At (link: www.olin.edu text: Olin College), we've spent a lot of time thinking about how to reshape engineering education in the face of both technological and cultural changes. In the summer of 2014, I was invited down to Elon University School of Law to be on a panel about experiential education, to talk about how we might apply what we've learned about teaching engineering to reconsidering how we might teach law.  I also wrote a companion article for the *Elon Law  Review*, "Preparing for the Future of Law: Lessons from a New Engineering School". Here's the abstract:
+
+> Like a number of other professions, the field of law is undergoing a significant upheaval due to a confluence of social and technical factors; in particular, there has been an imminent rise of technologies to supplant (or augment) many of the activities of practicing lawyers. In response to these changes, law schools have the opportunity to redesign their curricula and pedagogical approaches to be more responsive to the needs of their students, helping them to develop the skills and abilities that will serve them well in this new world. This article outlines some ways of thinking about and creating these new educational experiences, informed by the author’s experiences as one of the early faculty at the Olin College of Engineering, an undergraduate institution that was created to address similar challenges in the profession of engineering.
+
+You can read the whole article (link: https://www.elon.edu/docs/e-web/law/law_review/Issues/Elon_Law_Review_V7_No1_Chachra.pdf text: here). [PDF]
+
+----
+
+Tags: engineering,education,speaking,writing,law,future

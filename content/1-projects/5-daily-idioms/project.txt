@@ -25,6 +25,10 @@ Builder:
     
     (link: http://dailyidioms.tumblr.com/ text: Visit Daily Idioms, Annotated class:btn btn-lg btn-outline-primary)
   _fieldset: bodytext
+- 
+  image: screen-shot-2018-03-20-at-3.31.06-pm.png
+  class: image--full
+  _fieldset: image
 
 ----
 

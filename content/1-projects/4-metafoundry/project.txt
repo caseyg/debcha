@@ -23,7 +23,9 @@ Builder:
     (link: http://tinyletter.com/metafoundry/ text: Subscribe class:btn btn-lg btn-outline-primary)
   _fieldset: leadtext
 - 
-  _fieldset: divider
+  image: screen-shot-2018-03-20-at-3.33.26-pm.png
+  class: image--full
+  _fieldset: image
 - 
   text: |
     WIRED included it as one of their ["21 Must-Follow Feeds for Business"](https://www.wired.com/2015/09/21-must-follow-feeds-world-business/) and it's on this [WNYC list](http://www.wnyc.org/story/newsletter-round-up/) of 'newsletters you'll actually be glad to see in your inbox'. But my favorite description of it comes from Clive Thompson, in his [WIRED piece](https://www.wired.com/2016/05/rise-of-the-newsletter/) on newsletters:

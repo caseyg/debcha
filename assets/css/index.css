@@ -232,6 +232,9 @@ footer {
 .section__nav a:visited {
   color: #000; }
 
+.fluid-width-video-wrapper {
+  margin-bottom: 1em; }
+
 /* Kirby Columns */
 .columns {
   margin-right: -2rem; }

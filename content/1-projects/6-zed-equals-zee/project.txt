@@ -23,6 +23,10 @@ Builder:
     (link: https://zedequalszee.com/ text: Visit zed equals zee class:btn btn-lg btn-outline-primary)
   _fieldset: leadtext
 - 
+  image: screen-shot-2018-03-20-at-3.38.14-pm.png
+  class: image--full
+  _fieldset: image
+- 
   text: |
     Some of my favorite essays:
     

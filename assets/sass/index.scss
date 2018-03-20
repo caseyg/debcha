@@ -12,6 +12,39 @@ a:visited {
   text-decoration: underline;
 }
 
+.lead {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
+.btn {
+  text-decoration: none!important;
+  border-radius: 0;
+  box-shadow: 5px 5px 0 0 #000;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  text-decoration: underline!important;
+  box-shadow: 5px 5px 0 0 #000!important;
+  background: #fff!important;
+  color: #000!important;
+  border: 1px solid #000!important;
+}
+
+.nav--page {
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
 h1 {
   font-weight: 900;
 }

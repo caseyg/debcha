@@ -40,6 +40,10 @@ Builder:
   link: http://situated.systems
   _fieldset: button
 - 
+  image: screen-shot-2018-03-20-at-3.34.57-pm.png
+  class: image--full
+  _fieldset: image
+- 
   _fieldset: divider
 - 
   slideshow: |

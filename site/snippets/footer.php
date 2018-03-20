@@ -20,12 +20,15 @@
     <script src="https://use.typekit.net/ilk3lvh.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="/assets/js/instantclick.min.js" data-no-instant></script>
-    <script data-no-instant>InstantClick.init();</script>
     <script src="/assets/js/jquery.fitvids.min.js"></script>
-    <script>
-      $(document).ready(function(){
+    <script data-no-instant>
+      $(".container").fitVids();
+
+      InstantClick.on('change', function(){
         $(".container").fitVids();
       });
+
+      InstantClick.init();
     </script>
   </body>
 </html>

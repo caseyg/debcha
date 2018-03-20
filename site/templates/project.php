@@ -45,25 +45,4 @@
       <?php endif ?>
     </div>
   </div>
-<!--
-  <hr>
-
-  <div class="row">
-    <div class="col">
-      <h3>Section</h3>
-      <?php foreach ($page->sections()->toStructure() as $section): ?>
-        <a href="<?php echo $pages->find("Materials Science")->url() ?>"><?php $section ?></a>
-      <?php endforeach; ?>
-    </div>
-    <div class="col">
-      <h3>Tags</h3>
-      <?php foreach ($page->tags()->split($separator = ',') as $t): ?>
-        <a class="text-muted mr-1 p-1" style="border:1px solid darkgray;" href="<?php echo url($page->url() . '/' . url::paramsToString(['tag' => $t])) ?>">
-          #<?php echo html($t) ?>
-        </a>
-      <?php endforeach; ?>
-    </div>
-  </div>
-</div>
--->
 <?php snippet('footer') ?>

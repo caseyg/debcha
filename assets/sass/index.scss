@@ -6,6 +6,12 @@ hr {
   border-top:5px solid #000;
 }
 
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+
 h1 {
   font-weight: 900;
 }
@@ -36,6 +42,7 @@ body {
   a:link,
   a:visited {
     color: #000;
+    text-decoration: none;
   }
 
 }
@@ -77,6 +84,9 @@ h6 {
   a:link.text-muted ,
   a:visited.text-muted {
     color: #ccc!important;
+    text-decoration: none;
+    margin-bottom: .5em;
+    display: inline-block;
   }
 }
 
@@ -272,6 +282,7 @@ footer {
   font-weight: bold;
 //  transition: all .25s;
   border: 1px solid #fff;
+  text-decoration: none!important;
 }
 
 .sections__card:hover {

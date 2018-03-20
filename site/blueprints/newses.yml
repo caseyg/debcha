@@ -6,8 +6,9 @@ options:
   template: false
 pages:
   template: news
-  num: date
-  field: dates
+  num:
+    mode: date
+    field: dates
 files: false
 fields:
   title:

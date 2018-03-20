@@ -3,7 +3,7 @@
   <?php snippet('nav') ?>
   <div class="container py-3">
     <div class="row py-3">
-      <div class="col">
+      <div class="col-12 col-md-8 offset-md-2">
         <h1 class="pt-3" style="font-weight:900;color:#fff;"><?php echo $page->title()->kirbytextRaw() ?></h1>
         <h2 class="pb-3" style="font-weight:100;color:#fff;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
         <hr style="border-color:#fff;">

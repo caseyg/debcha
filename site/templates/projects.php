@@ -28,9 +28,7 @@
         <?php foreach ($projects as $p): ?>
           <div class="card mb-3">
             <div class="card-block">
-                  <div style="background-color:<?php echo $p->color() ?>;" class="project__marker project__marker--small">
-                    <div class="project__hole"></div>
-                  </div>
+                <img src="https://via.placeholder.com/400x300/eeeeee/<?= trim($p->color(), "#") ?>/?text=<?= $p->title() ?>" alt="">
 
                 <h4 class="card-title pt-3 mb-1"><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></h4>
                 <?php if ($p->subtitle()->isNotEmpty()): ?>
@@ -67,7 +65,5 @@
     </div>
   </div>
 </div>
-
-<p class="lead">These projects are represented by locator tags.</p>
 
 <?php snippet('footer') ?>

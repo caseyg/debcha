@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/caseyg/debcha#readme",
   "dependencies": {
-    "browser-sync": "^2.12.10",
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",

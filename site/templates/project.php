@@ -25,6 +25,8 @@
     </div>
   </div>
 
+  <hr>
+
   <div class="row nav--page">
     <div class="col">
       <?php if($page->hasNextVisible()): ?>
@@ -43,34 +45,25 @@
       <?php endif ?>
     </div>
   </div>
-
+<!--
+  <hr>
 
   <div class="row">
-    <div class="col-12">
-      <h3 class="table-heading">Sections</h3>
-      <table class="sections" style="margin:auto;">
-        <?php foreach($pages->find('sections')->children()->visible() as $section): ?>
-          <tr>
-            <td><?php if(str::contains($page->sections(), $section->title())): ?>
-              X
-            <?php endif; ?></td>
-            <td><a href="<?php echo $section->url() ?>"><?php echo $section->title() ?></a></td>
-          </tr>
-        <?php endforeach; ?>
-        <?php if ($page->tags()->isNotEmpty()): ?>
-        <tr>
-          <td colspan="2" style="text-align:center; text-transform:none;"><strong>See also, projects tagged:</strong><br>
-            <?php foreach ($page->tags()->split($separator = ',') as $t): ?>
-              <a href="<?php echo url($page->parent()->uri() . '/' . url::paramsToString(['tag' => $t])) ?>">
-                #<?php echo html($t) ?>
-              </a>
-            <?php endforeach; ?>
-          </td>
-        </tr>
-      <?php endif; ?>
-      </table>
+    <div class="col">
+      <h3>Section</h3>
+      <?php foreach ($page->sections()->toStructure() as $section): ?>
+        <a href="<?php echo $pages->find("Materials Science")->url() ?>"><?php $section ?></a>
+      <?php endforeach; ?>
+    </div>
+    <div class="col">
+      <h3>Tags</h3>
+      <?php foreach ($page->tags()->split($separator = ',') as $t): ?>
+        <a class="text-muted mr-1 p-1" style="border:1px solid darkgray;" href="<?php echo url($page->url() . '/' . url::paramsToString(['tag' => $t])) ?>">
+          #<?php echo html($t) ?>
+        </a>
+      <?php endforeach; ?>
     </div>
   </div>
 </div>
-
+-->
 <?php snippet('footer') ?>

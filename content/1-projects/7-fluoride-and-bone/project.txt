@@ -17,14 +17,24 @@ Tags: research,materials,bone
 Builder: 
 
 - 
+  text: >
+    One of my major research areas has been
+    the study of bone in health and disease,
+    using techniques drawn from materials
+    science and engineering.
+  _fieldset: leadtext
+- 
   text: |
-    One of my major research areas has been the study of bone in health and disease, using techniques drawn from materials science and engineering. One of the major functions of bone is mechanical: bones support and protect the body, and allow us to use our muscles effectively. Materials science is about understanding and relating the physical properties of materials to their underlying structure and composition; in this case, it means linking the mechanical properties of bones (like strength, stiffness, and propensity to fracture) to the biological effects that change the amount or the nature of the bone tissues. One well-known example of this is osteoporosis, a disease where loss of bone leads to hip and other fractures. I've investigated therapies for osteoporosis with animal models, and showed that fluoride in municipal drinking water supplies is likely to have a negligible effect on bone fracture risk.
+    One of the major functions of bone is mechanical: bones support and protect the body, and allow us to use our muscles effectively. Materials science is about understanding and relating the physical properties of materials to their underlying structure and composition; in this case, it means linking the mechanical properties of bones (like strength, stiffness, and propensity to fracture) to the biological effects that change the amount or the nature of the bone tissues. One well-known example of this is osteoporosis, a disease where loss of bone leads to hip and other fractures. I've investigated therapies for osteoporosis with animal models, and showed that fluoride in municipal drinking water supplies is likely to have a negligible effect on bone fracture risk.
     
     This review paper [PDF] puts much of my research into the context of how fluoride at different doses affects bones and teeth.
     Chachra D, Vieira A, Grynpas MD (2008) Fluoride and mineralized tissues. *Critical Reviews in Biomedical Engineering* **36**:183-223.
-    
-    Representative research papers:
-    
+  _fieldset: bodytext
+- 
+  text: Representative research papers
+  _fieldset: section-header
+- 
+  text: |
     Chachra D, Limeback H, Willett T, Grynpas MD (2010) The long-term effects of water fluoridation on the human skeleton. *Journal of Dental Research* **89**:1219-1223.
     
     Chachra D, Turner CH, Dunipace AJ, Grynpas MD (1999) The effect of fluoride treatment on bone mineral in rabbits. *Calcified Tissue International* **64**:345-351.
@@ -40,7 +50,7 @@ Themes: Materials science
 
 ----
 
-Color: #d45353
+Color: #333333
 
 ----
 

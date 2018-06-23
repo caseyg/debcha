@@ -152,9 +152,11 @@ h6 {
 }
 
 .project__banner {
-  background-size: contain;
+  background-color: red;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom;
+  background-blend-mode: lighten;
 }
 
 .table-heading {

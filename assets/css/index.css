@@ -115,9 +115,11 @@ h6 {
     padding-bottom: 10px; }
 
 .project__banner {
-  background-size: contain;
+  background-color: red;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: left bottom; }
+  background-position: left bottom;
+  background-blend-mode: lighten; }
 
 .table-heading {
   text-transform: uppercase;

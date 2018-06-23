@@ -44,7 +44,7 @@ Themes:
 
 ----
 
-Color: #353a62
+Color: #697ca1
 
 ----
 

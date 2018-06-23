@@ -42,7 +42,7 @@ Themes:
 
 ----
 
-Color: #ffd041
+Color: #d4c17e
 
 ----
 

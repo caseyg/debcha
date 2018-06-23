@@ -36,8 +36,16 @@ Themes:
 
 ----
 
-Color: #e91e63
+Color: #697ca1
 
 ----
 
 Sections: 
+
+----
+
+Icon: 
+
+----
+
+Banner: 

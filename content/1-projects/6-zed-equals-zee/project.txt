@@ -49,3 +49,11 @@ Color: #353a62
 ----
 
 Sections: 
+
+----
+
+Icon: zed.jpg
+
+----
+
+Banner: 

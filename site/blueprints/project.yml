@@ -16,9 +16,18 @@ fields:
   subtitle:
     label: Subtitle
     type: text
+  icon:
+    label: Icon
+    type: image
+    width: 1/3
+  banner:
+    label: Banner
+    type: image
+    width: 1/3
   color:
     label: Color
     type: colorlist
+    width: 1/3
     options:
       - "#eb1717"
       - "#28db78"

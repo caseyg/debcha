@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<div class="container-fluid" style="background: <?php echo $page->color() ?>;">
+<div class="container-fluid project__banner" style="background-image: <?php if($page->banner()->isNotEmpty()): ?>url('<?php echo $page->banner()->toFile()->url(); ?>')<?php else: ?>url('/assets/banner-texture.jpg') <?php endif; ?>;">
   <?php snippet('nav') ?>
   <div class="container py-3">
     <div class="row py-3">

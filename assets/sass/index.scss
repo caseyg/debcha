@@ -91,13 +91,12 @@ h6 {
 }
 
 #projects {
-  background: gray;
+  background: white;
 
   .card {
     background: none;
     border: none;
     border-radius: 0;
-    color: #ccc;
 
     img {
       width: 100%;
@@ -106,17 +105,13 @@ h6 {
   .card-title,
   .card-text {
     font-family: vinyl;
-    a:link,
-    a:visited {
-      color: #eee;
-    }
+
     small {
       font-family: "sofia-pro-condensed"
     }
   }
   a:link.text-muted ,
   a:visited.text-muted {
-    color: #ccc!important;
     text-decoration: none;
     margin-bottom: .5em;
     display: inline-block;
@@ -154,6 +149,12 @@ h6 {
     line-height: 50px;
     padding-bottom:10px;
   }
+}
+
+.project__banner {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
 
 .table-heading {

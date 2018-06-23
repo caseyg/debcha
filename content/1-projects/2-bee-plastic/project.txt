@@ -47,3 +47,11 @@ Color: #ffd041
 ----
 
 Sections: 
+
+----
+
+Icon: bee.jpg
+
+----
+
+Banner: banner-bee.jpg

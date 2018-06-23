@@ -53,3 +53,11 @@ Color: #eb1717
 ----
 
 Sections: 
+
+----
+
+Icon: 
+
+----
+
+Banner: banner-meta.jpg

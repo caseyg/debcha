@@ -108,10 +108,13 @@ h6 {
   transition: all .25s; }
 
 .card:hover .icon__background {
-  transform: scale(1.15); }
+  transform: scale(1.05); }
+
+.card:hover .icon__disc {
+  transform: scale(1.1); }
 
 .card:hover .icon__foreground {
-  transform: scale(0.85) translate(-15%, 15%); }
+  transform: scale(1.05); }
 
 #news h2 {
   font-family: "vinyl"; }

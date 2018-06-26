@@ -44,4 +44,5 @@
       <?php endif ?>
     </div>
   </div>
+</div>
 <?php snippet('footer') ?>

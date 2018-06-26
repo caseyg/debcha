@@ -57,3 +57,23 @@ Icon: zed.jpg
 ----
 
 Banner: 
+
+----
+
+Disc: icon-disc-zed.png
+
+----
+
+Background: icon-background-zed.png
+
+----
+
+Foreground: icon-foreground-zed.png
+
+----
+
+Bannerbackground: banner-background-zed.jpg
+
+----
+
+Bannerforeground: banner-foreground-zed.png

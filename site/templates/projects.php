@@ -28,13 +28,22 @@
         <?php foreach ($projects as $p): ?>
           <div class="card mb-3">
             <div class="card-block">
-                <?php if($p->icon()->isNotEmpty()): ?><img src="<?php echo $p->icon()->toFile()->url(); ?>" alt="<?php echo $p->title() ?>"><?php endif; ?>
-
+                <?php if($p->disc()->isNotEmpty()): ?>
+                  <a href="<?php echo $p->url() ?>">
+                    <figure class="icon">
+                      <img class="icon__disc" src="<?php echo $p->disc()->toFile()->url(); ?>">
+                      <img class="icon__background" src="<?php echo $p->background()->toFile()->url(); ?>">
+                      <img class="icon__foreground" src="<?php echo $p->foreground()->toFile()->url(); ?>">
+                    </figure>
+                  </a>
+                <?php endif; ?>
+<!--
                 <h4 class="card-title pt-3 mb-1"><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></h4>
                 <?php if ($p->subtitle()->isNotEmpty()): ?>
                   <p class="card-text"><?php echo $p->subtitle() ?></p>
                 <?php endif; ?>
-
+-->
+<!--
               <?php if ($p->tags()->isNotEmpty()): ?>
                 <p class="card-text pb-1">
                   <small>
@@ -46,6 +55,7 @@
                   </small>
                 </p>
               <?php endif; ?>
+-->
             </div>
           </div>
         <?php endforeach; ?>

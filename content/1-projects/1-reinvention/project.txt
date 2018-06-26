@@ -175,3 +175,23 @@ Sections:
 ----
 
 Color: #e74c3c
+
+----
+
+Disc: icon-disc-prism.png
+
+----
+
+Background: icon-background-prism.png
+
+----
+
+Foreground: icon-foreground-prism.png
+
+----
+
+Bannerbackground: banner-background-prism.jpg
+
+----
+
+Bannerforeground: banner-foreground-prism.png

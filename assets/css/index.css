@@ -91,6 +91,28 @@ h6 {
     margin-bottom: .5em;
     display: inline-block; }
 
+.icon {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-top: 100%;
+  height: 0; }
+
+.icon__disc,
+.icon__background,
+.icon__foreground {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .25s; }
+
+.card:hover .icon__background {
+  transform: scale(1.15); }
+
+.card:hover .icon__foreground {
+  transform: scale(0.85) translate(-15%, 15%); }
+
 #news h2 {
   font-family: "vinyl"; }
   #news h2 a {

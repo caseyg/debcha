@@ -55,3 +55,23 @@ Icon: bee.jpg
 ----
 
 Banner: banner-bee.jpg
+
+----
+
+Disc: icon-disc-bee.png
+
+----
+
+Background: icon-background-bee.png
+
+----
+
+Foreground: icon-foreground-bee.png
+
+----
+
+Bannerbackground: banner-background-bee.jpg
+
+----
+
+Bannerforeground: banner-foreground-bee.png

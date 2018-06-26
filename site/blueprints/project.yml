@@ -16,12 +16,24 @@ fields:
   subtitle:
     label: Subtitle
     type: text
-  icon:
-    label: Icon
+  disc:
+    label: Disc
     type: image
     width: 1/3
-  banner:
-    label: Banner
+  background:
+    label: Background
+    type: image
+    width: 1/3
+  foreground:
+    label: Foreground
+    type: image
+    width: 1/3
+  bannerbackground:
+    label: Banner Background
+    type: image
+    width: 1/3
+  bannerforeground:
+    label: Banner Foreground
     type: image
     width: 1/3
   color:

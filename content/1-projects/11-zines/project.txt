@@ -1,0 +1,41 @@
+Title: Zines
+
+----
+
+Subtitle: 
+
+----
+
+Disc: icon-disc-zine.png
+
+----
+
+Background: icon-background-zine.png
+
+----
+
+Foreground: icon-foreground-zine.png
+
+----
+
+Color: #c4a4aa
+
+----
+
+Sections: 
+
+----
+
+Tags: 
+
+----
+
+Builder: 
+
+----
+
+Bannerbackground: banner-background-zine.jpg
+
+----
+
+Bannerforeground: banner-foreground-zine.png

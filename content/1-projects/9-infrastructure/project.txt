@@ -1,0 +1,41 @@
+Title: Infrastructure
+
+----
+
+Subtitle: 
+
+----
+
+Disc: icon-disc-infra.png
+
+----
+
+Background: icon-background-infra.png
+
+----
+
+Foreground: icon-foreground-infra.png
+
+----
+
+Color: 
+
+----
+
+Sections: 
+
+----
+
+Tags: 
+
+----
+
+Builder: 
+
+----
+
+Bannerbackground: banner-background-infra.jpg
+
+----
+
+Bannerforeground: banner-foreground-infra.png

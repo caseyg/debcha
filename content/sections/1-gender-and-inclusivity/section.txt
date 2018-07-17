@@ -51,33 +51,12 @@ Builder:
 - 
   text: >
     I write about gender, diversity,
-    inclusion and bias, in engineering and
-    beyond, for a wide range of audiences.
+    inclusion, and bias for a wide range of
+    audiences.
   _fieldset: leadtext
-- 
-  text: '(image: bitchplanet-comp.jpg link:/news/bitch-planet-tktktk)'
-  _fieldset: bodytext
 - 
   text: |
     (columns...)
-    
-    <div class="alert-light p-3">
-    &rarr; I write a regular column, “Reinvention”, for the American Society for Engineering Education’s Prism magazine.
-    (link: /projects/reinvention text: Read more "Reinvention" columns class: btn btn-outline-primary)
-    </div>
-    
-    ++++
-    
-    <a href="http://www.asee-prism.org/reinvention-feb/" style="color:#000;">
-    (image: asee-logo.png width: 100px class: mb-3)
-    
-    ### Partway to Gender Parity
-    
-    > We now share the data showing gender differences with students as they start their projects, and ask them to think about why they believe those disparities occurred.
-    
-    <small>February 2014</small>
-    </a>
-    
     
     ++++
     
@@ -86,25 +65,43 @@ Builder:
     
     ### To reduce gender biases, acknowledge them
     
-    A former Google engineer’s memo on diversity reveals psychological blind spots, not biological differences, says Debbie Chachra.
+    A former Google engineer’s memo on diversity reveals psychological blind spots, not biological differences.
     
-    <small>22 August 2017</small>
     </a>
     
+    
+    
+    ++++
+    
+    
+    ### Reinvention
+    (image: asee-logo.png width: 100px class: mb-3)
+    <div class="alert-light p-3">
+    &rarr; Editorials on engineering education, a number of which address issues of gender.
+    (link: /projects/reinvention text: Read more "Reinvention" columns class: btn btn-outline-primary)
+    </div>
+    
+    
+    
     (...columns)
+  _fieldset: bodytext
+- 
+  text: '(image: bitchplanet-comp.jpg link:/news/bitch-planet-tktktk)'
   _fieldset: bodytext
 - 
   text: Research
   _fieldset: section-header
 - 
   text: |
+    Much of my research in engineering education focuses on the engineering student experience, including gender.
+    
     (columns...)
     
     <a href="https://peer.asee.org/exploring-gender-and-self-confidence-in-engineering-students-a-multi-method-approach" class="text-secondary">
-    ### Exploring Gender and Self-Confidence in Engineering Students: a Multi-Method Approach
+    ### Exploring Gender and Self-Confidence in Engineering Students: a Multi-Method Approach </a>
     
-    Despite generally higher academic achievement, female students display lower academic self- confidence than males. Of particular interest to engineering educators is the difference in confidence in mathematical or scientific skills. Gender differences among engineering students have been explored by the Persistence in Engineering survey, a component of the Academic Pathways Study (APS), a multi-method longitudinal study...
-    </a>
+    In this study, we showed that a gender gap in academic self-confidence persisted throughout their engineering education, even among successful students who graduated in four years.
+    
     
     (link: # text: Download Paper, PDF class: btn btn-outline-primary)
     
@@ -112,10 +109,10 @@ Builder:
     
     <a href="https://peer.asee.org/interactive-panel-improving-the-experiences-of-marginalized-students-on-engineering-design-teams" class="text-secondary">
     
-    ### Improving the Experiences of Marginalized Students on Engineering Design Teams
+    ### Improving the Experiences of Marginalized Students on Engineering Design Teams </a>
     
-    Interactive Panel: Improving the Experiences of Marginalized Students on Engineering Design TeamsIt is widely recognized that collaborative learning (i.e., group work) benefits student learning bycreating an educational environment in which students achieve higher grades, learn at a deeperlevel and retain information longer. However, group work is fraught with challenges...
-    </a>
+    Working in design teams is an increasingly important part of engineering education. This paper summarizes research on the experiences of students from marginalized groups, with strategies for educators on how to make those experiences better.
+    
     
     (link: # text: Download Paper, PDF class: btn btn-outline-primary)
     
@@ -138,9 +135,7 @@ Builder:
   text: |
     (columns...)
     <div class="alert mx-3 p-3 lead">
-    Speaking about engineering and gender, especially with student groups, is important to me, if you'd like to inquire about [TKTKTK], please send me an e-mail:
-    
-    (link:mailto:debbie.chachra@olin.edu text: debbie.chachra@olin.edu)
+    Speaking and consulting about gender and inclusivity, especially with student groups, is important to me. If you'd like to learn more, please  (link:mailto:debbie.chachra@olin.edu text: email me).
     </div>
     
     ++++
@@ -148,7 +143,7 @@ Builder:
     <div class="alert alert-light lead">
     (image: Collaboratory banner.jpg)
     
-    For more of my work around gender and STEM, (link: /news/tag:gender text: click here).
+    For more of my work around gender, inclusivity, and STEM, (link: /news/tag:gender text: click here).
     </div>
     
     (...columns)

@@ -55,3 +55,31 @@ Color: #333333
 ----
 
 Sections: Materials science
+
+----
+
+Icon: bone.jpg
+
+----
+
+Banner: 
+
+----
+
+Disc: icon-disc-bone.png
+
+----
+
+Background: icon-background-bone.png
+
+----
+
+Foreground: icon-foreground-bone.png
+
+----
+
+Bannerbackground: banner-background-bone.jpg
+
+----
+
+Bannerforeground: banner-foreground-bone.png

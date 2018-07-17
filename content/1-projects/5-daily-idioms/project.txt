@@ -36,8 +36,36 @@ Themes:
 
 ----
 
-Color: #e91e63
+Color: #697ca1
 
 ----
 
 Sections: 
+
+----
+
+Icon: 
+
+----
+
+Banner: 
+
+----
+
+Disc: icon-disc-idiom.png
+
+----
+
+Background: icon-background-idiom.png
+
+----
+
+Foreground: icon-foreground-idiom.png
+
+----
+
+Bannerbackground: banner-background-idiom.jpg
+
+----
+
+Bannerforeground: banner-foreground-idiom.png

@@ -53,3 +53,31 @@ Color: #eb1717
 ----
 
 Sections: 
+
+----
+
+Icon: 
+
+----
+
+Banner: banner-meta.jpg
+
+----
+
+Disc: icon-disc-meta.png
+
+----
+
+Background: icon-background-meta.png
+
+----
+
+Foreground: icon-foreground-meta.png
+
+----
+
+Bannerbackground: banner-background-meta.jpg
+
+----
+
+Bannerforeground: banner-foreground-meta.png

@@ -1,0 +1,41 @@
+Title: Engineering Leadership
+
+----
+
+Subtitle: 
+
+----
+
+Disc: icon-disc-leadership.png
+
+----
+
+Background: icon-background-leadership.png
+
+----
+
+Foreground: icon-foreground-leadership.png
+
+----
+
+Color: 
+
+----
+
+Sections: 
+
+----
+
+Tags: 
+
+----
+
+Builder: 
+
+----
+
+Bannerbackground: banner-background-leadership.jpg
+
+----
+
+Bannerforeground: banner-foreground-leadership.png

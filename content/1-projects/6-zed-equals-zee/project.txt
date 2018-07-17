@@ -44,8 +44,36 @@ Themes:
 
 ----
 
-Color: #353a62
+Color: #697ca1
 
 ----
 
 Sections: 
+
+----
+
+Icon: zed.jpg
+
+----
+
+Banner: 
+
+----
+
+Disc: icon-disc-zed.png
+
+----
+
+Background: icon-background-zed.png
+
+----
+
+Foreground: icon-foreground-zed.png
+
+----
+
+Bannerbackground: banner-background-zed.jpg
+
+----
+
+Bannerforeground: banner-foreground-zed.png

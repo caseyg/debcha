@@ -63,3 +63,23 @@ Sections:
 ----
 
 Color: #28db78
+
+----
+
+Disc: icon-disc-situ.png
+
+----
+
+Background: icon-background-situ.png
+
+----
+
+Foreground: icon-foreground-situ.png
+
+----
+
+Bannerbackground: banner-background-situ.jpg
+
+----
+
+Bannerforeground: banner-foreground-situ.png

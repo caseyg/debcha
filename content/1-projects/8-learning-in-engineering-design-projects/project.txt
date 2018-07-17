@@ -1,0 +1,41 @@
+Title: Learning in Engineering Design Projects
+
+----
+
+Subtitle: 
+
+----
+
+Ongoing: false
+
+----
+
+Tags: gender,education,technology,research
+
+----
+
+Builder: 
+
+----
+
+Sections: 
+
+----
+
+Disc: icon-disc-learning.png
+
+----
+
+Background: icon-background-learning.png
+
+----
+
+Foreground: icon-foreground-learning.png
+
+----
+
+Bannerbackground: banner-background-learning.jpg
+
+----
+
+Bannerforeground: banner-foreground-learning.png

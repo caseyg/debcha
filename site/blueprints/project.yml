@@ -16,19 +16,38 @@ fields:
   subtitle:
     label: Subtitle
     type: text
+  disc:
+    label: Disc
+    type: image
+    width: 1/3
+  background:
+    label: Background
+    type: image
+    width: 1/3
+  foreground:
+    label: Foreground
+    type: image
+    width: 1/3
+  bannerbackground:
+    label: Banner Background
+    type: image
+    width: 1/3
+  bannerforeground:
+    label: Banner Foreground
+    type: image
+    width: 1/3
   color:
     label: Color
     type: colorlist
+    width: 1/3
     options:
-      - "#eb1717"
-      - "#28db78"
-      - "#333333"
-      - "#e74c3c"
-      - "#353a62"
-      - "#9b59b6"
-      - "#d45353"
-      - "#ffd041"
-      - "#e91e63"
+      - "#b07d7e"
+      - "#daa863"
+      - "#697ca1"
+      - "#c4a4aa"
+      - "#ca8989"
+      - "#81a9b1"
+      - "#d4c17e"
   sections:
     label: sections
     type: multiselect

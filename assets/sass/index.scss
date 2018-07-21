@@ -123,17 +123,26 @@ h6 {
   .card-text {
     font-family: "sofia-pro-condensed";
     letter-spacing: 1px;
+    text-align: center;
   }
 
   .card-title {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+    margin-top: -1.5em;
   }
 
   a:link,
   a:visited {
     text-decoration: none;
+
+  }
+
+  .card-block:hover {
+    .card-title a {
+      text-decoration: underline;
+    }
   }
 }
 

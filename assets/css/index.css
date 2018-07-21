@@ -97,14 +97,18 @@ h6 {
   #projects .card-title,
   #projects .card-text {
     font-family: "sofia-pro-condensed";
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-align: center; }
   #projects .card-title {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-top: -1.5em; }
   #projects a:link,
   #projects a:visited {
     text-decoration: none; }
+  #projects .card-block:hover .card-title a {
+    text-decoration: underline; }
 
 .icon {
   display: block;

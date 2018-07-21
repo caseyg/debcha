@@ -1,5 +1,5 @@
 <nav class="container text-right py-3" id="topnav">
-  <a href="/"><strong>Debbie Chachra</strong>, PhD</a>
+  <a href="/" class="nav__title"><strong>Debbie Chachra</strong>, PhD</a>
   <ul class="list-inline">
     <?php foreach($pages->visible() as $p): ?>
     <li class="list-inline-item <?php e($p->isOpen(), 'active') ?>">

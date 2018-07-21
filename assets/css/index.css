@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .active {
   font-weight: bold; }
 
@@ -56,6 +57,20 @@ blockquote {
 body {
   font-family: "sofia-pro-condensed", sans-serif;
   font-weight: 100; }
+
+#topnav .list-inline-item {
+  font-family: "sofia-pro";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px; }
+
+#topnav .list-inline-item::after {
+  content: " • ";
+  margin: 0 .5em; }
+
+#topnav .list-inline-item:last-child::after {
+  content: "";
+  margin: 0; }
 
 #topnav a:link,
 #topnav a:visited {

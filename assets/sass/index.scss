@@ -72,6 +72,23 @@ body {
 
 #topnav {
 
+  .list-inline-item {
+    font-family: "sofia-pro";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+
+  .list-inline-item::after {
+    content: " • ";
+    margin: 0 .5em;
+  }
+
+  .list-inline-item:last-child::after {
+    content: "";
+    margin: 0;
+  }
+
   a:link,
   a:visited {
     color: #000;

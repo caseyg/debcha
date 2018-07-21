@@ -2,7 +2,7 @@ Title: Infrastructure
 
 ----
 
-Subtitle: 
+Subtitle:
 
 ----
 
@@ -18,19 +18,19 @@ Foreground: icon-foreground-infra.png
 
 ----
 
-Color: 
+Color: #91b6a5
 
 ----
 
-Sections: 
+Sections:
 
 ----
 
-Tags: 
+Tags:
 
 ----
 
-Builder: 
+Builder:
 
 ----
 

@@ -2,7 +2,7 @@ Title: Zines
 
 ----
 
-Subtitle: 
+Subtitle:
 
 ----
 
@@ -18,19 +18,19 @@ Foreground: icon-foreground-zine.png
 
 ----
 
-Color: #c4a4aa
+Color: #ca9696
 
 ----
 
-Sections: 
+Sections:
 
 ----
 
-Tags: 
+Tags:
 
 ----
 
-Builder: 
+Builder:
 
 ----
 

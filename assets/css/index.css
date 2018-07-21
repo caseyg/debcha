@@ -98,12 +98,12 @@ h6 {
   #projects .card-text {
     font-family: "sofia-pro-condensed";
     letter-spacing: 1px;
-    text-align: center; }
+    text-align: center;
+    z-index: 1000; }
   #projects .card-title {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
-    margin-top: -1.5em; }
+    font-size: 18px; }
   #projects a:link,
   #projects a:visited {
     text-decoration: none; }

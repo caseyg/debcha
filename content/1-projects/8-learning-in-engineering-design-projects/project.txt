@@ -2,7 +2,7 @@ Title: Learning in Engineering Design Projects
 
 ----
 
-Subtitle: 
+Subtitle:
 
 ----
 
@@ -14,11 +14,15 @@ Tags: gender,education,technology,research
 
 ----
 
-Builder: 
+Builder:
 
 ----
 
-Sections: 
+Sections:
+
+----
+
+Color: #8aafca
 
 ----
 

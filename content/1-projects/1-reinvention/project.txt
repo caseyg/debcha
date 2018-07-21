@@ -6,7 +6,7 @@ Subtitle: The future of engineering education
 
 ----
 
-Dates: 
+Dates:
 
 ----
 
@@ -18,19 +18,19 @@ Tags: education,technology,writing
 
 ----
 
-Builder: 
+Builder:
 
-- 
+-
   text: >
     I write a regular column,
     “Reinvention”, for the American
     Society for Engineering Education’s
     Prism magazine.
   _fieldset: leadtext
-- 
+-
   text: 'The focus of the column is changing ideas and norms in engineering education. Recent columns have discussed [technology in the classroom](http://www.asee-prism.org/reinvention-sum/), the role of [self-efficacy in learning](http://www.asee-prism.org/reinvention-dec-2/), and moving away from the post-World War II ‘[culture of order](http://www.asee-prism.org/reinvention-dec/)’ in engineering.'
   _fieldset: bodytext
-- 
+-
   text: '[A] generation out from my own undergraduate engineering degree, I’ve spent a surprising amount of time unlearning what I learned in college, and I work with engineering educators to help them do likewise.'
   title: >
     Five Things I Unlearned After
@@ -40,7 +40,7 @@ Builder:
   date: December 2016
   _fieldset: excerpt
   date_text: December 2016
-- 
+-
   text: >
     Demographic differences, such as gender,
     among engineering students don’t
@@ -57,20 +57,20 @@ Builder:
     http://www.asee-prism.org/reinvention-marapr/
   date_text: March 2015
   _fieldset: excerpt
-- 
+-
   text: '[W]e live in a connected world where collaboration is becoming easier. Accordingly, we ask our engineering students to work in teams, and we often talk about leadership. But we rarely provide examples of either, leading our students to find their own models of teamwork and leadership. Many look to the military, hierarchical corporations, and the traditional patriarchal family.'
   title: Hierarchies are Hard to Shake
   link: >
     http://www.asee-prism.org/reinvention-dec/
   date_text: December 2014
   _fieldset: excerpt
-- 
+-
   text: 'What has changed for “kids these days” is, of course, the culture they live in. For engineering students, there are three major elements of this: the rise of the knowledge economy; the decline of stable, long-term employment; and advances in technology.'
   title: The Kids Are All Right
   link: http://www.asee-prism.org/reinvention/
   date_text: September 2014
   _fieldset: excerpt
-- 
+-
   text: >
     But women in engineering are told, in a
     host of small and subtle ways, that
@@ -83,7 +83,7 @@ Builder:
     http://www.asee-prism.org/reinvention-feb/
   date_text: February 2014
   _fieldset: excerpt
-- 
+-
   text: >
     Today, discussions about revamping
     engineering education often focus on the
@@ -99,21 +99,21 @@ Builder:
     http://www.prism-magazine.org/summer13/reinvention.cfm
   date_text: Summer 2013
   _fieldset: excerpt
-- 
+-
   text: 'As educators, we should ask what values are being incorporated into the design of MOOCs. For a start, most MOOCs embody a particular pedagogical approach: that knowledge is transferred from an expert to a newcomer, rather than something that is constructed by the learner by their engagement.'
   title: A Novel Approach
   link: >
     http://www.prism-magazine.org/feb13/reinvention.cfm
   date_text: February 2013
   _fieldset: excerpt
-- 
+-
   text: 'But here’s the problem: From a learning standpoint, this approach misses the mark. Our engineering students aren’t the A-Team. They’re assigned the project as a learning exercise. If all the students do what they are best at, there’s a good chance they’ll end up minimizing what the team learns.'
   title: The Perils of Teamwork
   link: >
     http://www.prism-magazine.org/summer12/reinvention.cfm
   date_text: Summer 2012
   _fieldset: excerpt
-- 
+-
   text: >
     Teamwork, particularly early in a
     student’s education, isn’t just
@@ -130,7 +130,7 @@ Builder:
     http://www.prism-magazine.org/nov12/reinvention.cfm
   date_text: November 2012
   _fieldset: excerpt
-- 
+-
   text: >
     But the types of problems we expect
     engineering graduates to be able to
@@ -146,7 +146,7 @@ Builder:
     http://www.prism-magazine.org/feb12/reinvention.cfm
   date_text: February 2012
   _fieldset: excerpt
-- 
+-
   text: >
     We talk the talk — we ask our students
     to wrestle with new material every day
@@ -162,7 +162,7 @@ Builder:
 
 ----
 
-Text: 
+Text:
 
 ----
 
@@ -170,11 +170,11 @@ Themes: Engineering education, Gender and inclusivity
 
 ----
 
-Sections: 
+Sections:
 
 ----
 
-Color: #e74c3c
+Color: #92b4d7
 
 ----
 

@@ -6,11 +6,11 @@ Subtitle: How bees make plastic
 
 ----
 
-Affiliation: 
+Affiliation:
 
 ----
 
-Dates: 
+Dates:
 
 ----
 
@@ -22,15 +22,15 @@ Tags: research,materials,culture
 
 ----
 
-Builder: 
+Builder:
 
-- 
+-
   text: "*Colletes inaequalis*, a solitary bee that is native to the Northeast United States, is also known as the 'polyester bee'. In the spring, the bees dig thimble-sized underground nest cells, line each nest cell with a cellophane-like plastic, provision them with pollen and nectar, and then deposit a single egg in each cell before sealing it with more plastic."
   _fieldset: leadtext
-- 
+-
   text: |
     We've been collecting and analysing these nests, including showing that there is also silk in the nest cell lining; it’s therefore a composite, closely akin to fiberglass. We presented this work at the Materials Research Society Spring Meetings in 2011 and [2016](http://www.mrs.org/spring-2016-symposium-sessions/spring-2016-symposia/?code=SM9). One of my research students at Olin College of Engineering, Rebecca Belisle, received a Fulbright Fellowship to [continue this work](https://link.springer.com/article/10.1007/s10853-011-5624-3) with a related species, *Colletes thoracicus*.
-    
+
     WaPo piece: http://www.washingtonpost.com/wp-srv/special/metro/urban-jungle/pages/110315.html
     SciAm piece: https://www.scientificamerican.com/article/from-pollen-to-polyester/
     In Gizmodo, alongside other 'living 3D printers': https://gizmodo.com/concrete-printing-bees-and-other-living-3d-printers-1477853742
@@ -38,15 +38,15 @@ Builder:
 
 ----
 
-Themes: 
+Themes:
 
 ----
 
-Color: #d4c17e
+Color: #d7c07a
 
 ----
 
-Sections: 
+Sections:
 
 ----
 

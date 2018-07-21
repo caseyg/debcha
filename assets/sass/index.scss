@@ -124,13 +124,13 @@ h6 {
     font-family: "sofia-pro-condensed";
     letter-spacing: 1px;
     text-align: center;
+    z-index: 1000;
   }
 
   .card-title {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
-    margin-top: -1.5em;
   }
 
   a:link,

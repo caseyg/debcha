@@ -2,7 +2,7 @@ Title: Engineering Leadership
 
 ----
 
-Subtitle: 
+Subtitle:
 
 ----
 
@@ -18,19 +18,19 @@ Foreground: icon-foreground-leadership.png
 
 ----
 
-Color: 
+Color: #809fb4
 
 ----
 
-Sections: 
+Sections:
 
 ----
 
-Tags: 
+Tags:
 
 ----
 
-Builder: 
+Builder:
 
 ----
 

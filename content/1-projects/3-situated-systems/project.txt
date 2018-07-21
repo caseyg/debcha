@@ -14,16 +14,16 @@ Tags: research,infrastructure,design,legibility
 
 ----
 
-Builder: 
+Builder:
 
-- 
+-
   image: img_0518.jpg
   class: image--right
   _fieldset: image
-- 
+-
   text: "The [Situated Systems](http://situated.systems) was undertaken as the inaugural fellowship of the Experimental Research Lab at Autodesk's [Pier 9 creative workshop](https://www.autodesk.com/pier-9)  in San Francisco, California, during the spring of 2016."
   _fieldset: leadtext
-- 
+-
   text: >
     Our multidisciplinary team explored how
     the long history of military
@@ -35,17 +35,17 @@ Builder:
     website includes background information,
     documentation, and online resources.
   _fieldset: bodytext
-- 
+-
   text: Visit Situated Systems
   link: http://situated.systems
   _fieldset: button
-- 
+-
   image: screen-shot-2018-03-20-at-3.34.57-pm.png
   class: image--full
   _fieldset: image
-- 
+-
   _fieldset: divider
-- 
+-
   slideshow: |
     - sitsysopenhouse_uk7a6070.jpg
     - sitsysopenhouse_uk7a6091.jpg
@@ -58,11 +58,11 @@ Themes: Technology and culture
 
 ----
 
-Sections: 
+Sections:
 
 ----
 
-Color: #28db78
+Color: #88b381
 
 ----
 

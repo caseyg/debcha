@@ -37,12 +37,10 @@
                     </figure>
                   </a>
                 <?php endif; ?>
-<!--
-                <h4 class="card-title pt-3 mb-1"><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></h4>
-                <?php if ($p->subtitle()->isNotEmpty()): ?>
+                <h4 class="card-title pt-3 mb-1"><a href="<?php echo $p->url() ?>" style="color:<?= $p->color(); ?>"><?php echo $p->title() ?></a></h4>
+                <!--<?php if ($p->subtitle()->isNotEmpty()): ?>
                   <p class="card-text"><?php echo $p->subtitle() ?></p>
-                <?php endif; ?>
--->
+                <?php endif; ?>-->
             </div>
           </div>
         <?php endforeach; ?>

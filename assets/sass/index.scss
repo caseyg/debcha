@@ -121,17 +121,19 @@ h6 {
   }
   .card-title,
   .card-text {
-    font-family: vinyl;
-
-    small {
-      font-family: "sofia-pro-condensed"
-    }
+    font-family: "sofia-pro-condensed";
+    letter-spacing: 1px;
   }
-  a:link.text-muted ,
-  a:visited.text-muted {
+
+  .card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  a:link,
+  a:visited {
     text-decoration: none;
-    margin-bottom: .5em;
-    display: inline-block;
   }
 }
 

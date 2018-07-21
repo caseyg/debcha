@@ -96,15 +96,15 @@ h6 {
       width: 100%; }
   #projects .card-title,
   #projects .card-text {
-    font-family: vinyl; }
-    #projects .card-title small,
-    #projects .card-text small {
-      font-family: "sofia-pro-condensed"; }
-  #projects a:link.text-muted,
-  #projects a:visited.text-muted {
-    text-decoration: none;
-    margin-bottom: .5em;
-    display: inline-block; }
+    font-family: "sofia-pro-condensed";
+    letter-spacing: 1px; }
+  #projects .card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px; }
+  #projects a:link,
+  #projects a:visited {
+    text-decoration: none; }
 
 .icon {
   display: block;

@@ -43,19 +43,6 @@
                   <p class="card-text"><?php echo $p->subtitle() ?></p>
                 <?php endif; ?>
 -->
-<!--
-              <?php if ($p->tags()->isNotEmpty()): ?>
-                <p class="card-text pb-1">
-                  <small>
-                    <?php foreach ($p->tags()->split($separator = ',') as $t): ?>
-                      <a class="text-muted mr-1 p-1" style="border:1px solid darkgray;" href="<?php echo url($page->url() . '/' . url::paramsToString(['tag' => $t])) ?>">
-                        #<?php echo html($t) ?>
-                      </a>
-                    <?php endforeach; ?>
-                  </small>
-                </p>
-              <?php endif; ?>
--->
             </div>
           </div>
         <?php endforeach; ?>

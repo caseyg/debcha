@@ -3,7 +3,7 @@
 }
 
 hr {
-  border-top:5px solid #000;
+  border-top: 1px solid #000;
 }
 
 a:link,
@@ -389,9 +389,31 @@ footer {
 }
 
 .section__nav {
+  margin-top: 100px;
+}
+
+.section__nav,
+.section__nav--page {
+
   a:link,
   a:visited {
     color: #000;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: underline;
+  }
+
+  .list-inline-item::after {
+    content: " • ";
+    margin: 0 .5em;
+  }
+
+  .list-inline-item:last-child::after {
+    content: "";
+    margin: 0;
   }
 }
 

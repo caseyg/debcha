@@ -6,13 +6,27 @@
       <div class="col">
         <div class="section__nav">
           <?php $sections = $site->find("sections")->children()->visible(); ?>
-          <?php foreach ($sections as $section): ?>
-              <a href="<?php echo $section->url() ?>" <?php if($page->title() == $section->title()): ?>class="active"<?php endif; ?>>
-                <?= $section->title() ?>
-              </a> <?php if ($section->title() != $sections->last()->title()): ?> /<?php endif; ?>
-          <?php endforeach; ?>
+          <ul class="list-inline">
+            <?php foreach ($sections as $section): ?>
+              <li class="list-inline-item">
+                <a href="<?php echo $section->url() ?>" <?php if($page->title() == $section->title()): ?>class="active"<?php endif; ?>>
+                  <?= $section->title() ?>
+                </a>
+              </li>
+            <?php endforeach; ?>
+          </ul>
         </div>
         <hr>
+        <ul class="list-inline section__nav--page">
+          <li class="list-inline-item">On This Page:</li>
+          <?php foreach($page->builder()->toStructure() as $section): ?>
+            <?php if ($section->_fieldset() == "section-header"): ?>
+              <?php snippet('sections/' . "section-nav", array('data' => $section)) ?>
+            <?php endif; ?>
+          <?php endforeach ?>
+        </ul>
+
+
         <h1 class="pt-3" style="font-weight:900;"><?php echo $page->title()->kirbytextRaw() ?></h1>
         <h2 class="pb-3" style="font-weight:100;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
       </div>

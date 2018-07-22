@@ -139,13 +139,8 @@ h6 {
 .card:hover .icon__foreground {
   transform: scale(1.05); }
 
-#news h2 {
-  font-family: "vinyl"; }
-  #news h2 a {
-    color: #000; }
-
-.parent-news h1 {
-  font-family: "vinyl"; }
+#news h2 a {
+  color: #000; }
 
 #topnav {
   position: absolute;
@@ -271,8 +266,7 @@ footer {
   background: #DAEEE2;
   padding: 15px; }
 
-.home__collage,
-.home__sections {
+.home__collage {
   background: #DAEEE2; }
 
 .sections__card {
@@ -283,6 +277,7 @@ footer {
   letter-spacing: 1px;
   font-weight: bold;
   border: 1px solid #fff;
+  border-radius: 0;
   text-decoration: none !important; }
 
 .sections__card:hover {
@@ -294,7 +289,6 @@ footer {
   color: #222; }
 
 .home__news li a {
-  font-family: "Vinyl";
   font-weight: bold;
   font-size: 26px; }
 

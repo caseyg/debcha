@@ -182,16 +182,9 @@ h6 {
 }
 
 #news {
-  h2 {
-    font-family: "vinyl";
-    a {
-      color: #000;
-    }
+  h2 a {
+    color: #000;
   }
-}
-
-.parent-news h1 {
-  font-family: "vinyl";
 }
 
 #topnav {
@@ -355,8 +348,7 @@ footer {
   background: #DAEEE2;
   padding: 15px; }
 
-.home__collage,
-.home__sections {
+.home__collage {
   background: #DAEEE2;
 }
 
@@ -369,6 +361,7 @@ footer {
   font-weight: bold;
 //  transition: all .25s;
   border: 1px solid #fff;
+  border-radius: 0;
   text-decoration: none!important;
 }
 
@@ -383,7 +376,6 @@ footer {
     color: #222;
   }
   li a {
-      font-family: "Vinyl";
       font-weight: bold;
       font-size: 26px;
   }

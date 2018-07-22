@@ -21,9 +21,10 @@
   <div class="container">
     <div class="row">
       <?php foreach ($site->find("sections")->children()->visible() as $section): ?>
-          <div class="col-12 col-md-6 p-3">
+          <div class="col-12 col-md-6 col-lg-3 p-3">
             <a href="<?php echo $section->url() ?>" class="h3 card sections__card" style="background-color:<?php echo $section->color() ?>;">
-              <?= $section->title() ?>
+              <span class-"section__title"><?= $section->title() ?></span>
+              <span class="section__subtitle"><?= $section->subtitle() ?></span>
             </a>
 
           </div>

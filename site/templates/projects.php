@@ -31,9 +31,9 @@
                 <?php if($p->disc()->isNotEmpty()): ?>
                   <a href="<?php echo $p->url() ?>">
                     <figure class="icon">
-                      <img class="icon__disc" src="<?php echo $p->disc()->toFile()->url(); ?>">
-                      <img class="icon__background" src="<?php echo $p->background()->toFile()->url(); ?>">
-                      <img class="icon__foreground" src="<?php echo $p->foreground()->toFile()->url(); ?>">
+                      <img class="icon__disc" src="<?php echo thumb($p->disc()->toFile(), array('width' => 600))->url(); ?>">
+                      <img class="icon__background" src="<?php echo thumb($p->background()->toFile(), array('width' => 600))->url(); ?>">
+                      <img class="icon__foreground" src="<?php echo thumb($p->foreground()->toFile(), array('width' => 600))->url(); ?>">
                     </figure>
                   </a>
                 <?php endif; ?>

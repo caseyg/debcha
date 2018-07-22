@@ -77,6 +77,10 @@ body {
   color: #000;
   text-decoration: none; }
 
+#topnav a:hover, #topnav a:active {
+  text-decoration: underline !important;
+  text-decoration-skip-ink: auto; }
+
 nav,
 h1,
 h2,
@@ -143,12 +147,25 @@ h6 {
 .parent-news h1 {
   font-family: "vinyl"; }
 
+#topnav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000; }
+
 .project__banner {
-  background-size: cover, contain;
+  background-size: cover, auto 100%;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-blend-mode: lighten;
   height: 60vh; }
+
+.project__banner .container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; }
 
 .project__title,
 .project__subtitle {
@@ -253,27 +270,6 @@ footer {
 .projects {
   background: #DAEEE2;
   padding: 15px; }
-
-.project__marker {
-  background: #f00;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  position: relative; }
-
-.project__marker--small {
-  width: 100px;
-  height: 100px; }
-
-.project__hole {
-  display: block;
-  background: gray;
-  width: 10%;
-  height: 10%;
-  border-radius: 50%;
-  position: absolute;
-  top: 45%;
-  left: 45%; }
 
 .home__collage,
 .home__sections {

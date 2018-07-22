@@ -1,12 +1,12 @@
 <?php snippet('header') ?>
+
+<?php snippet('nav') ?>
+
 <div class="container-fluid project__banner" style="background-color: <?= $page->color() ?>; background-image: <?php if($page->bannerbackground()->isNotEmpty()): ?>url('<?php echo $page->bannerbackground()->toFile()->url(); ?>'), url('<?php echo $page->bannerforeground()->toFile()->url(); ?>')<?php endif; ?>;">
-  <?php snippet('nav') ?>
-  <div class="container py-3">
-    <div class="row py-3">
-      <div class="col-12">
-        <h1 class="pt-3 project__title" style="text-shadow: 3px 3px 2px  <?= $page->color() ?>;"><?php echo $page->title()->kirbytextRaw() ?></h1>
-        <h2 class="pb-3 project__subtitle" style="text-shadow: 3px 3px 2px  <?= $page->color() ?>;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
-      </div>
+  <div class="container">
+    <div class="title">
+      <h1 class="project__title" style="text-shadow: 3px 3px 2px  <?= $page->color() ?>;"><?php echo $page->title()->kirbytextRaw() ?></h1>
+      <h2 class="project__subtitle" style="text-shadow: 3px 3px 2px  <?= $page->color() ?>;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
     </div>
   </div>
 </div>

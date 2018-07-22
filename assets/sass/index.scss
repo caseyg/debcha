@@ -189,31 +189,29 @@ h6 {
   font-family: "vinyl";
 }
 
-.project-heading {
-  background: lightgray;
-  text-align: center;
-
-  h1, h2 {
-    font-family: vinyl;
-    border: 3px solid #000;
-    display: inline-block;
-    border-radius: 25px;
-    background: #fff;
-  }
-
-  .arrow {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-    padding-bottom:10px;
-  }
+.project__banner {
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-blend-mode: lighten;
+  height: 60vh;
 }
 
-.project__banner {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-blend-mode: lighten;
+.project__title,
+.project__subtitle {
+  color: #fff;
+}
+
+.project__title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 26px;
+}
+
+.project__subtitle {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 .table-heading {

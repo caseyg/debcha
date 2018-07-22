@@ -4,8 +4,8 @@
   <div class="container py-3">
     <div class="row py-3">
       <div class="col-12">
-        <h1 class="pt-3" style="font-weight:900;"><?php echo $page->title()->kirbytextRaw() ?></h1>
-        <h2 class="pb-3" style="font-weight:100;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
+        <h1 class="pt-3 project__title" style="text-shadow: 3px 3px 2px  <?= $page->color() ?>;"><?php echo $page->title()->kirbytextRaw() ?></h1>
+        <h2 class="pb-3 project__subtitle" style="text-shadow: 3px 3px 2px  <?= $page->color() ?>;"><?php echo $page->subtitle()->kirbytextRaw() ?></h2>
       </div>
     </div>
   </div>

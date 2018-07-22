@@ -143,26 +143,26 @@ h6 {
 .parent-news h1 {
   font-family: "vinyl"; }
 
-.project-heading {
-  background: lightgray;
-  text-align: center; }
-  .project-heading h1, .project-heading h2 {
-    font-family: vinyl;
-    border: 3px solid #000;
-    display: inline-block;
-    border-radius: 25px;
-    background: #fff; }
-  .project-heading .arrow {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-    padding-bottom: 10px; }
-
 .project__banner {
-  background-size: cover;
+  background-size: cover, contain;
   background-repeat: no-repeat;
-  background-position: left bottom;
-  background-blend-mode: lighten; }
+  background-position: center bottom;
+  background-blend-mode: lighten;
+  height: 60vh; }
+
+.project__title,
+.project__subtitle {
+  color: #fff; }
+
+.project__title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 26px; }
+
+.project__subtitle {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100; }
 
 .table-heading {
   text-transform: uppercase;
